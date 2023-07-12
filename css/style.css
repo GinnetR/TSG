@@ -15,15 +15,6 @@ body{
 
 /* Header */
 
-a{
-    text-decoration: none;
-    color: #02143F;
-}
-
-.header.click a {
-    color: white;
-}
-
 .header{
     position: fixed;
     width: 100%;
@@ -36,7 +27,13 @@ a{
     z-index: 10;
 }
 
+nav ul {
+   list-style: none;
+   display: flex;
+}
+
 nav a{
+    text-decoration: none;
     font-style: normal;
     font-size: 20px;
     font-weight: 500;
@@ -48,13 +45,6 @@ nav a:hover{
     font-style:unset;
     font-weight: 100px;
     font-size: 21px;
-}
-
-.toggle_btn{
-    color: white;
-    font-size: 1.5rem;
-    cursor: pointer;
-    display: none;
 }
 
 /* Primera parte slider */
@@ -139,8 +129,59 @@ nav a:hover{
 
 /*DROPDOWN_MENU*/
 
+.menu-drop{
+    display: none;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    width: 35px;
+}
+
+.mobile-menu {
+    margin-left: 0;
+}
 /* RESPONSIVE */
 
 @media (max-width: 650px){
 
+    .nav{
+        padding: 0px;
+    }
+
+    .menu-drop{
+        cursor: pointer;
+        display: block;
+    }
+
+    .nav-links{
+        top: 0;
+        left: 50%;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.20);
+        backdrop-filter: blur(9px);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: left;
+        align-items: first baseline;
+        padding-left: 80px;
+        padding-top: 80px;
+        margin-left: -200%;
+        transition: all .5s ease;
+    }
+
+    .nav-links.mobile-menu {
+        margin-left: 0;
+    }
+
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav .nav-links ul li{
+        margin: 25px 0px;
+        font-size: 1.2rem;
+    }
 }

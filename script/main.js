@@ -1,3 +1,10 @@
+const menuDrop = document.querySelector(".menu-drop")
+const navLinks = document.querySelector(".nav-links")
+
+menuDrop.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+})
+
 let slide = document.querySelectorAll('.slide');
 var current = 0;
 
@@ -8,18 +15,23 @@ function cls(){
 }
 
 function next(){
-
     
     document.getElementById("img1").src="images/arrow1.svg";
     document.getElementById("img2").src="images/arrow2.svg";
-
     
     if(current == slide.length==0){
+        document.getElementById("menu").style.color = "white";
+        document.getElementById("menu2").style.color = "white";
+        document.getElementById("menu3").style.color = "white";
         document.getElementById("img1").src="images/arrow3.svg";
         document.getElementById("img2").src="images/arrow4.svg";
     }
 
     if(current == slide.length-1){
+
+        document.getElementById("menu").style.color = "#02143F";
+        document.getElementById("menu2").style.color = "#02143F";
+        document.getElementById("menu3").style.color = "#02143F";
         document.getElementById("img1").src="images/arrow1.svg";
         document.getElementById("img2").src="images/arrow2.svg";
     }
@@ -48,9 +60,16 @@ function prev(){
 
     document.getElementById("img1").src="images/arrow3.svg";
     document.getElementById("img2").src="images/arrow4.svg";
+    document.getElementById("menu").style.color = "white";
+    document.getElementById("menu2").style.color = "white";
+    document.getElementById("menu3").style.color = "white";
 
 
     if(current == slide.length-1){
+        document.getElementById("menu").style.color = "#02143F";
+        document.getElementById("menu2").style.color = "#02143F";
+        document.getElementById("menu3").style.color = "#02143F";
+
         document.getElementById("img1").src="images/arrow1.svg";
         document.getElementById("img2").src="images/arrow2.svg";
     }
