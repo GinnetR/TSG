@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>TSG</title>
 </head>
 <body>
 
     <!-- Primera Parte slider -->
-
+    
     <div class="container">
         <div class="arrow1 img1" onclick="next();">
             <img src="images/arrow1.svg" id="img1" alt="1">
@@ -23,7 +24,7 @@
                         <img src="images/🦆 icon _home_.svg" alt="">
                        </a>
                     </div>
-                    <nav>
+                    <nav class="nav">
                         <ul class="nav-links">
                             <a href="#">Portafolio</a>
                             <a href="#">Empleo</a>
@@ -39,8 +40,8 @@
                 <a href=""><img src="images/twit-morado.png" alt=""></a>
                 <a href=""><img src="images/tiktok-morado.png" alt=""></a>
             </div>
-            
         </div>
+
         <div class="slide slide-2">
             <div class="caption4">
                 <header class="header">
@@ -75,91 +76,7 @@
         </div>
     </div>
 
-    <script>
-
-
-        let slide = document.querySelectorAll('.slide');
-        var current = 0;
-
-        function cls(){
-            for(let i = 0; i < slide.length; i++){
-                  slide[i].style.display = 'none';
-            }
-        }
-
-        function next(){
-
-            
-            document.getElementById("img1").src="images/arrow1.svg";
-            document.getElementById("img2").src="images/arrow2.svg";
-
-            
-            if(current == slide.length==0){
-                document.getElementById("img1").src="images/arrow3.svg";
-                document.getElementById("img2").src="images/arrow4.svg";
-            }
-
-            if(current == slide.length-1){
-                document.getElementById("img1").src="images/arrow1.svg";
-                document.getElementById("img2").src="images/arrow2.svg";
-            }
-
-            cls();
-            if(current === slide.length-1) current = -1;
-            current++;
-
-            slide[current].style.display = 'block';
-            slide[current].style.opacity = 0.4;
-
-            var x = 0.4;
-            var intX = setInterval(function(){
-                x+=0.1;
-                slide[current].style.opacity = x;
-                if(x >= 1) {
-                    clearInterval(intX);
-                    x = 0.4;
-                }
-            }, 100);
-
-
-        }
-
-        function prev(){
-
-            document.getElementById("img1").src="images/arrow3.svg";
-            document.getElementById("img2").src="images/arrow4.svg";
-
-
-            if(current == slide.length-1){
-                document.getElementById("img1").src="images/arrow1.svg";
-                document.getElementById("img2").src="images/arrow2.svg";
-            }
-
-            cls();
-            if(current === 0) current = slide.length;
-            current--;
-
-            slide[current].style.display = 'block';
-            slide[current].style.opacity = 0.4;
-
-            var x = 0.4;
-            var intX = setInterval(function(){
-                x+=0.1;
-                slide[current].style.opacity = x;
-                if(x >= 1) {
-                    clearInterval(intX);
-                    x = 0.4;
-                }
-            }, 100);
-
-        }
-
-        function start(){
-            cls();
-            slide[current].style.display = 'block';
-        }
-        start();
-    </script>
+    <script src="./script/main.js"></script>
 
 </body>
 </html>

@@ -50,6 +50,13 @@ nav a:hover{
     font-size: 21px;
 }
 
+.toggle_btn{
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
 /* Primera parte slider */
 
 .container {
@@ -127,4 +134,13 @@ nav a:hover{
 .img2 {
     padding: 20px;
     right: 0;
+}
+
+
+/*DROPDOWN_MENU*/
+
+/* RESPONSIVE */
+
+@media (max-width: 650px){
+
 }
