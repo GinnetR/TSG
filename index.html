@@ -4,10 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>TSG</title>
 </head>
 <body>
-    <h1>Hello world</h1>
+
+       <!-- Header -->
+
+    <header class="header">
+        <div class="icono">
+           <a href="">
+            <img src="images/🦆 icon _home_.svg" alt="">
+           </a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <a href="#">Portafolio</a>
+                <a href="#">Empleo</a>
+                <a href="#">Contáctanos</a>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Primera Parte slider -->
+
+    <div class="container">
+        <div class="arrow l" onclick="prev();">
+            <img src="images/arrow1.svg" alt="1">
+        </div>
+        <div class="slide slide-1">
+            <div class="caption">
+                <a href=""><img src="images/elipse rosa.svg" alt=""></a>
+                <a href=""><img src="images/elipse rosa.svg" alt=""></a>
+                <a href=""><img src="images/elipse rosa.svg" alt=""></a>
+                <a href=""><img src="images/elipse rosa.svg" alt=""></a>
+                <a href=""><img src="images/elipse rosa.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="slide slide-2">
+            <div class="caption">
+                <a href=""><img src="images/elipse2.svg" alt=""></a>
+                <a href=""><img src="images/elipse2.svg" alt=""></a>
+                <a href=""><img src="images/elipse2.svg" alt=""></a>
+                <a href=""><img src="images/elipse2.svg" alt=""></a>
+                <a href=""><img src="images/elipse2.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="arrow r" onclick="next()">
+            <img src="images/arrow2.svg" alt="2">
+        </div>
+    </div>
+
+    <script>
+        let slide = document.querySelectorAll('.slide');
+        var current = 0;
+
+        function cls(){
+            for(let i = 0; i < slide.length; i++){
+                  slide[i].style.display = 'none';
+            }
+        }
+
+        function next(){
+            cls();
+            if(current === slide.length-1) current = -1;
+            current++;
+
+            slide[current].style.display = 'block';
+            slide[current].style.opacity = 0.4;
+
+            var x = 0.4;
+            var intX = setInterval(function(){
+                x+=0.1;
+                slide[current].style.opacity = x;
+                if(x >= 1) {
+                    clearInterval(intX);
+                    x = 0.4;
+                }
+            }, 100);
+
+        }
+
+        function prev(){
+            cls();
+            if(current === 0) current = slide.length;
+            current--;
+
+            slide[current].style.display = 'block';
+            slide[current].style.opacity = 0.4;
+
+            var x = 0.4;
+            var intX = setInterval(function(){
+                x+=0.1;
+                slide[current].style.opacity = x;
+                if(x >= 1) {
+                    clearInterval(intX);
+                    x = 0.4;
+                }
+            }, 100);
+
+        }
+
+        function start(){
+            cls();
+            slide[current].style.display = 'block';
+        }
+        start();
+    </script>
+
 </body>
 </html>
