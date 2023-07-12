@@ -93,6 +93,10 @@ nav a:hover{
     color: white;
 }
 
+.caption4 a:hover{
+    color: white;
+}
+
 .caption a {
     padding: 10px;
 }

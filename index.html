@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>TSG</title>
 </head>
 <body>
-<<<<<<< Updated upstream
-    <h1>Hello world</h1>
-=======
+
     <!-- Primera Parte slider -->
 
     <div class="container">
@@ -44,7 +42,6 @@
             
         </div>
         <div class="slide slide-2">
-            
             <div class="caption4">
                 <header class="header">
                     <div class="icono">
@@ -92,9 +89,21 @@
 
         function next(){
 
-            document.getElementById("img1").src="images/arrow3.svg";
-            document.getElementById("img2").src="images/arrow4.svg";
             
+            document.getElementById("img1").src="images/arrow1.svg";
+            document.getElementById("img2").src="images/arrow2.svg";
+
+            
+            if(current == slide.length==0){
+                document.getElementById("img1").src="images/arrow3.svg";
+                document.getElementById("img2").src="images/arrow4.svg";
+            }
+
+            if(current == slide.length-1){
+                document.getElementById("img1").src="images/arrow1.svg";
+                document.getElementById("img2").src="images/arrow2.svg";
+            }
+
             cls();
             if(current === slide.length-1) current = -1;
             current++;
@@ -117,8 +126,14 @@
 
         function prev(){
 
-            document.getElementById("img1").src="images/arrow1.svg";
-            document.getElementById("img2").src="images/arrow2.svg";
+            document.getElementById("img1").src="images/arrow3.svg";
+            document.getElementById("img2").src="images/arrow4.svg";
+
+
+            if(current == slide.length-1){
+                document.getElementById("img1").src="images/arrow1.svg";
+                document.getElementById("img2").src="images/arrow2.svg";
+            }
 
             cls();
             if(current === 0) current = slide.length;
@@ -146,6 +161,5 @@
         start();
     </script>
 
->>>>>>> Stashed changes
 </body>
 </html>
