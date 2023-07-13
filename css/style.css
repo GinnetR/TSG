@@ -15,7 +15,7 @@ body {
 
 /* Header */
 
-.header{
+.header {
     position: fixed;
     width: 100%;
     background-color: transparent;
@@ -28,11 +28,11 @@ body {
 }
 
 nav ul {
-   list-style: none;
-   display: flex;
+    list-style: none;
+    display: flex;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     font-style: normal;
     font-size: 20px;
@@ -78,7 +78,7 @@ nav a:hover {
     transform: translateY(-50%);
 }
 
-.caption2{
+.caption2 {
     color: white;
     position: absolute;
     top: 40%;
@@ -86,11 +86,11 @@ nav a:hover {
     font-size: 40px;
 }
 
-.caption4 a{
+.caption4 a {
     color: white;
 }
 
-.caption4 a:hover{
+.caption4 a:hover {
     color: white;
 }
 
@@ -126,58 +126,9 @@ nav a:hover {
     right: 0;
 }
 
-.seccion {
-    background-color: rgba(124, 61, 154, 1);
-    color: #fff;
-    padding: 70px;
-    text-align: center;
-  }
-  
-  .contenido {
-    max-width: 874px;
-    margin: 0 auto;
-  }
-  
-
-  h2 {
-    font-size: 24px;
-    margin: 30px 0;
-  }
-  
-  p {
-    font-size: 16px;
-    margin: 30px 0;
-    
-  }
-  
-  .enviar-btn {
-    border: 3px solid;
-    border-radius: 20px;
-    border-image-slice: 1;
-    background-color:rgba(124, 61, 154, 1);
-    color: #fff;
-    border-image-source:linear-gradient(90deg, #EB7064 0%, #592AC1 100%);
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer; 
-  }
-   
-
-  
-  @media screen and (max-width: 768px) {
-    h2 {
-      font-size: 20px;
-    }
-    
-    p {
-      font-size: 20px;
-    }
-  }
-  
-
 /*DROPDOWN_MENU*/
 
-.menu-drop{
+.menu-drop {
     display: none;
     position: absolute;
     right: 50px;
@@ -188,20 +139,21 @@ nav a:hover {
 .mobile-menu {
     margin-left: 0;
 }
+
 /* RESPONSIVE */
 
-@media (max-width: 650px){
+@media (max-width: 650px) {
 
-    .nav{
+    .nav {
         padding: 0px;
     }
 
-    .menu-drop{
+    .menu-drop {
         cursor: pointer;
         display: block;
     }
 
-    .nav-links{
+    .nav-links {
         top: 0;
         left: 50%;
         position: absolute;
@@ -222,13 +174,13 @@ nav a:hover {
         margin-left: 0;
     }
 
-    .nav-links ul{
+    .nav-links ul {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .nav .nav-links ul li{
+    .nav .nav-links ul li {
         margin: 25px 0px;
         font-size: 1.2rem;
     }
