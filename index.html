@@ -5,15 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/primer_slider.css">
+    <link rel="stylesheet" href="css/Segunda_parte.css">
+    <link rel="stylesheet" href="css/tercera_parte.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
     <title>TSG</title>
 </head>
 <body>
 
     <header class="header">
-        <div class="icono">
+        <div class="icono icono">
            <a href="">
-            <img src="images/🦆 icon _home_.svg" alt="">
+            <img src="images/🦆 icon _home_.svg" id="icono" alt="">
            </a>
         </div>
         <nav class="nav">
@@ -29,7 +36,7 @@
     </header>
 
     <!-- Primera Parte slider -->
-    
+
     <div class="container">
         <div class="arrow1 img1" onclick="next();">
             <img src="images/arrow1.svg" id="img1" alt="1">
@@ -66,7 +73,83 @@
         </div>
     </div>
 
+    <!-- Segunda Parte -->
+
+    <div class="container2">
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="texto">
+            <p class="parafo_1">
+                Somos una empresa joven y dinámica, buscamos apoyar a nuestros clientes en sus proyectos, a través de nuestra experiencia y la tecnología.
+            </p>
+            <p class="parafo_2">
+                Nos caracterizamos por las ideas innovadoras y audaces, la calidad de nuestros servicios y por la búsqueda del beneficio mutuo en nuestras acciones.
+            </p>
+        </div>
+        <div class="image">
+            <img src="images/image2.png" alt="">
+        </div>
+       <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide ">
+                <h1>
+                    +150
+                </h1>
+                <h4>
+                    Colaboradores
+                </h4>
+                <h5>
+                    a nivel nacional
+                </h5>
+            </div>
+            <div class="linea1">
+                <img src="images/linea.png" alt="">
+            </div>
+            <div class="swiper-slide ">
+                <h1>
+                    +310
+                </h1>
+                <h4>
+                    Municipios y 30
+                </h4>
+                <h4>
+                    Departamentos
+                </h4>
+                <h5>
+                    en operacion
+                </h5>
+            </div>
+            <div class="linea2">
+                <img src="images/linea.png" alt="">
+            </div>
+            <div class="swiper-slide ">
+                <h1>
+                    +65
+                </h1>
+                <h4>
+                    <strong>Mil millones de ingresos</strong> 
+                </h4>
+                <h5>
+                    en 2022
+                </h5>
+            </div>
+        </div>
+        <div class="swiper-pagination">3</div>
+       </div>
+    
+    </div>
+
+    <!-- Tercera Parte slider automatico-->
+
+    <div class="container3">
+        <div class="logo">
+            <img src="images/logo2.png" alt="">
+        </div>
+    </div>
+
     <script src="./script/main.js"></script>
+
 
 </body>
 </html>
