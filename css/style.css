@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
+body {
     background-color: white;
 }
 
@@ -40,9 +40,9 @@ nav a{
     padding-right: 50px;
 }
 
-nav a:hover{
-    color: #02143F ;
-    font-style:unset;
+nav a:hover {
+    color: #02143F;
+    font-style: unset;
     font-weight: 100px;
     font-size: 21px;
 }
@@ -126,6 +126,54 @@ nav a:hover{
     right: 0;
 }
 
+.seccion {
+    background-color: rgba(124, 61, 154, 1);
+    color: #fff;
+    padding: 70px;
+    text-align: center;
+  }
+  
+  .contenido {
+    max-width: 874px;
+    margin: 0 auto;
+  }
+  
+
+  h2 {
+    font-size: 24px;
+    margin: 30px 0;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 30px 0;
+    
+  }
+  
+  .enviar-btn {
+    border: 3px solid;
+    border-radius: 20px;
+    border-image-slice: 1;
+    background-color:rgba(124, 61, 154, 1);
+    color: #fff;
+    border-image-source:linear-gradient(90deg, #EB7064 0%, #592AC1 100%);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer; 
+  }
+   
+
+  
+  @media screen and (max-width: 768px) {
+    h2 {
+      font-size: 20px;
+    }
+    
+    p {
+      font-size: 20px;
+    }
+  }
+  
 
 /*DROPDOWN_MENU*/
 
