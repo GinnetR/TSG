@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>TSG</title>
 </head>
 <body>
-
-       <!-- Header -->
 
     <header class="header">
         <div class="icono">
@@ -17,100 +16,57 @@
             <img src="images/🦆 icon _home_.svg" alt="">
            </a>
         </div>
-        <nav>
-            <ul class="nav-links">
-                <a href="#">Portafolio</a>
-                <a href="#">Empleo</a>
-                <a href="#">Contáctanos</a>
-            </ul>
+        <nav class="nav">
+            <div class="nav-links">
+                <ul>
+                    <li></li><a href="#" id="menu">Portafolio</a></li>
+                    <li></li><a href="#" id="menu2">Empleo</a></li>
+                    <li></li><a href="#" id="menu3">Contáctanos</a></li>
+                </ul>
+            </div>
+            <img src="images/barras.png" alt="" class="menu-drop">
         </nav>
     </header>
 
     <!-- Primera Parte slider -->
-
+    
     <div class="container">
-        <div class="arrow l" onclick="prev();">
-            <img src="images/arrow1.svg" alt="1">
+        <div class="arrow1 img1" onclick="next();">
+            <img src="images/arrow1.svg" id="img1" alt="1">
         </div>
         <div class="slide slide-1">
+            <dic class="caption3">
+            </dic>
             <div class="caption">
-                <a href=""><img src="images/elipse rosa.svg" alt=""></a>
-                <a href=""><img src="images/elipse rosa.svg" alt=""></a>
-                <a href=""><img src="images/elipse rosa.svg" alt=""></a>
-                <a href=""><img src="images/elipse rosa.svg" alt=""></a>
-                <a href=""><img src="images/elipse rosa.svg" alt=""></a>
+                <a href=""><img src="images/linke-morado.png" alt=""></a>
+                <a href=""><img src="images/face-morado.png" alt=""></a>
+                <a href=""><img src="images/ig-morado.png" alt=""></a>
+                <a href=""><img src="images/twit-morado.png" alt=""></a>
+                <a href=""><img src="images/tiktok-morado.png" alt=""></a>
             </div>
         </div>
+
         <div class="slide slide-2">
+            <div class="caption4">
+            </div>
+            <div class="caption2">
+                <h3><u>TSG</u> tu aliado</h3>
+                <h3> tecnológico </h3>
+            </div>
             <div class="caption">
-                <a href=""><img src="images/elipse2.svg" alt=""></a>
-                <a href=""><img src="images/elipse2.svg" alt=""></a>
-                <a href=""><img src="images/elipse2.svg" alt=""></a>
-                <a href=""><img src="images/elipse2.svg" alt=""></a>
-                <a href=""><img src="images/elipse2.svg" alt=""></a>
+                <a href=""><img src="images/linke-nara.png" alt=""></a>
+                <a href=""><img src="images/face-naran.png" alt=""></a>
+                <a href=""><img src="images/IG.png" alt=""></a>
+                <a href=""><img src="images/TwitNara.png" alt=""></a>
+                <a href=""><img src="images/TiktoNara.png" alt=""></a>
             </div>
         </div>
-        <div class="arrow r" onclick="next()">
-            <img src="images/arrow2.svg" alt="2">
+        <div class="arrow2 img2" onclick="prev();">
+            <img src="images/arrow2.svg" id="img2" alt="1">
         </div>
     </div>
 
-    <script>
-        let slide = document.querySelectorAll('.slide');
-        var current = 0;
-
-        function cls(){
-            for(let i = 0; i < slide.length; i++){
-                  slide[i].style.display = 'none';
-            }
-        }
-
-        function next(){
-            cls();
-            if(current === slide.length-1) current = -1;
-            current++;
-
-            slide[current].style.display = 'block';
-            slide[current].style.opacity = 0.4;
-
-            var x = 0.4;
-            var intX = setInterval(function(){
-                x+=0.1;
-                slide[current].style.opacity = x;
-                if(x >= 1) {
-                    clearInterval(intX);
-                    x = 0.4;
-                }
-            }, 100);
-
-        }
-
-        function prev(){
-            cls();
-            if(current === 0) current = slide.length;
-            current--;
-
-            slide[current].style.display = 'block';
-            slide[current].style.opacity = 0.4;
-
-            var x = 0.4;
-            var intX = setInterval(function(){
-                x+=0.1;
-                slide[current].style.opacity = x;
-                if(x >= 1) {
-                    clearInterval(intX);
-                    x = 0.4;
-                }
-            }, 100);
-
-        }
-
-        function start(){
-            cls();
-            slide[current].style.display = 'block';
-        }
-        start();
-    </script>
+    <script src="./script/main.js"></script>
 
 </body>
 </html>
