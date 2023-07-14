@@ -1,0 +1,56 @@
+.contact-section {
+  background-color:rgba(2, 20, 63, 1);
+  color: white;
+  padding: 70px;
+}
+
+.section-title {
+  color:rgba(235, 112, 100, 1);
+}
+ 
+
+.inputs-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  flex-grow: 1; 
+  margin-right: 20px;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 50px 50px;
+  background-color: rgba(2, 20, 63, 1);
+  color: white;
+}
+
+.input {
+  flex-grow: 1;
+  margin-right: 20px;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 15px 15px;
+  background-color: rgba(2, 20, 63, 1);
+  color: white;
+}
+
+.btn-gradient-3 {
+  border: 3px solid;
+  border-image-slice: 1;
+  background: linear-gradient(rgba(2, 20, 63, 1), rgba(2, 20, 63, 1)) padding-box,
+              linear-gradient(90deg, #EB7064 0%, #592AC1 100%) border-box;
+  border-radius: 50em;
+  border: 4px solid transparent;
+  color: #fff;
+  padding: 20px 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .inputs-wrapper {
+    flex-direction: column;
+  }
+}
+ 

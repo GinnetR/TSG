@@ -1,0 +1,56 @@
+.products-section {
+    background-color:rgba(235, 112, 100, 1);
+    padding: 20px;
+    text-align: center;
+    overflow: hidden; /* Evita la aparición de la barra de desplazamiento */
+  }
+  
+  .carousel-wrapper {
+    position: relative;
+    overflow: hidden; /* Evita la aparición de la barra de desplazamiento */
+  }
+  
+  .carousel {
+    display: flex;
+    scroll-behavior: smooth; /* Agrega un desplazamiento suave */
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+  }
+  
+  .slide img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .carousel-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .carousel-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .carousel-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    margin: 0 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel {
+      overflow-x: auto; /* Permite el desplazamiento horizontal en dispositivos móviles */
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+  
