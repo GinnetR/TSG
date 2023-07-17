@@ -8,7 +8,9 @@
   align-items: center;
   justify-content: center;
 }
-
+.textPro{
+  text-align: left;
+}
 .SlidesProducts {
   width: calc(100% / 3);
   height: 100%;
