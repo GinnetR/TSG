@@ -1,6 +1,17 @@
 const menuDrop = document.querySelector(".menu-drop")
 const navLinks = document.querySelector(".nav-links")
 
+
+
+window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("abajo", window.scrollY>0);
+    document.getElementById("icono").src="images/🦆 icon _home_negra.png";
+    document.getElementById("menu-drop").src="images/barras_negras.png";
+    
+})
+
+
 menuDrop.addEventListener('click',()=>{
     navLinks.classList.toggle('mobile-menu')
 })
@@ -34,6 +45,7 @@ function next(){
         document.getElementById("menu3").style.color = "#02143F";
         document.getElementById("img1").src="images/arrow1.svg";
         document.getElementById("img2").src="images/arrow2.svg";
+
     }
 
     cls();
@@ -57,7 +69,6 @@ function next(){
 }
 
 function prev(){
-
     document.getElementById("img1").src="images/arrow3.svg";
     document.getElementById("img2").src="images/arrow4.svg";
     document.getElementById("menu").style.color = "white";
@@ -98,3 +109,25 @@ function start(){
     slide[current].style.display = 'block';
 }
 start();
+
+
+const swiper = new Swiper('.swiper', {
+    parallax: true,
+    direction: 'horizontal',
+    slidesPerView: 3,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      dynamicBullets: true,
+      type: 'bullets',  
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+  });
