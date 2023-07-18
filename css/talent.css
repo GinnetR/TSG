@@ -1,0 +1,54 @@
+.talento-section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color:#D9D9D9;
+}
+
+.talento-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin: 70px;
+    flex: 1;
+}
+
+.talento-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.talento-title {
+    margin-top: 10px;
+    color: #031740;
+}
+
+.talento-subtitle {
+    text-align: center;
+    color: #353083;
+    margin: 10px 0;
+}
+
+.talento-image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.talento-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 768px) {
+    .talento-content {
+        margin: 20px; 
+    }
+    .talento-image {
+        max-width: 100%; 
+    }
+}
