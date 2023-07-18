@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>Contactenos</title>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+    
+    <header class="header">
+        <div class="icono">
+            <a href="" id="icono">
+                <img src="images/🦆 icon _home_.svg" alt="" id="icono">
+            </a>
+        </div>
+        <nav class="nav">
+            <div class="nav-links">
+                <ul>
+                    <li></li><a href="#" id="menu" style='text-decoration:none;color:#02143F'>Portafolio</a></li>
+                    <li></li><a href="#" id="menu2" style='text-decoration:none;color:#02143F'>Empleo</a></li>
+                    <li></li><a href="#" class="menu3" style='text-decoration:none;color:#02143F'>Contáctanos</a></li>
+                </ul>
+            </div>
+            <img src="images/barras.png" alt="" class="menu-drop">
+        </nav>
+    </header>
+
+    <div class="container4">
+        <div class="imagen-fondo">
+            <img src="images/fondo-form.png" alt="" id="imagen-fondo">
+        </div>
+        <div class="form">
+            <div class="form__group">
+                <input type="" name="necesidad" id="necesidad" class="form__input">
+                <label for="select" class="form__label">¿Cual es tu necesidad?</label>
+                <select class="formkit-input" id="input_0" name="select">
+                    <option class="formkit-option"  >¿Cual es tu necesidad?</option>
+                    <option class="formkit-option" value="">Servicio 1</option>
+                    <option class="formkit-option" value="">Servicio 2</option>
+                    <option class="formkit-option" value="">Servicio 3</option>
+                    <option class="formkit-option" value="">Servicio 4</option>
+                  </select>
+                <span class="form__line"></span>
+            </div>
+            <div class="form__group">
+                <input type="text" name="nombre" id="nombre"  class="form__input">
+                <label for="name" class="form__label">Nombre*</label>
+                <span class="form__line"></span>
+            </div>
+            <div class="form__group">
+                <input type="text" name="Apellidos" id="Apellidos"   class="form__input">
+                <label for="Apellidos" class="form__label">Apellidos*</label>
+                <span class="form__line"></span>
+            </div>
+            <div class="form__group">
+                <input type="email" name="Correo" id="Correo"   class="form__input">
+                <label for="Correo" class="form__label">Correo Electronico*</label>
+                <span class="form__line"></span>
+            </div>
+            <div class="form__group">
+                <input type="tel" name="tel" id="tel"   class="form__input">
+                <label for="tel" class="form__label">Telefono*</label>
+                <span class="form__line"></span>
+            </div>
+            <div class="form__group">
+                <input type="text" name="Poblacion" id="Poblacion"   class="form__input">
+                <label for="Poblacion" class="form__label">Poblacion*</label>
+                <span class="form__line"></span>
+            </div>
+            <div class="form__group">
+                <input type="text" name="mensaje" id="mensaje"   class="form__input">
+                <label for="mensaje" class="form__label">Escribe brevemente tu mensaje*</label>
+                <span class="form__line"></span>
+            </div>
+            <div class="buttons">
+                <input type="checkbox" name="terminos" id="terminos"  style="padding: 50px">
+                <p>He leído, comprendo y acepto la <a href="">pólitica de privacidad</a>.</p>
+            </div>
+            <div class="capcha">
+                <div class="g-recaptcha" data-sitekey="6LemezUnAAAAAPf1vx8zTUnufOI-A_KPPnFbNUmZ"></div>
+            </div>
+            <div class="enviar">
+                <input type="submit" name="submit" value="ENVIAR" class="button">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
