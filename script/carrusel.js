@@ -16,12 +16,13 @@ function moveToRight() {
     operation = 0;
     sliderCarrusel.style.transform = `translate(-${operation}%)`;
     sliderCarrusel.style.transition = "none";
-   return }
-    counter++;
-    operation += widthImg;
-    sliderCarrusel.style.transform = `translate(-${operation}%)`;
-    sliderCarrusel.style.transition = "transform 0.6s ease";
+    return
   }
+  counter++;
+  operation += widthImg;
+  sliderCarrusel.style.transform = `translate(-${operation}%)`;
+  sliderCarrusel.style.transition = "transform 0.6s ease";
+}
 
 
 function moveToLeft() {
@@ -31,8 +32,20 @@ function moveToLeft() {
     operation = widthImg * (sliderSection.length - 1);
     sliderCarrusel.style.transform = `translate(-${operation}%)`;
     sliderCarrusel.style.transition = "none";
-  return; } 
-    operation -= widthImg;
-    sliderCarrusel.style.transform = `translate(-${operation}%)`;
-    sliderCarrusel.style.transition = "transform 0.6s ease";
+    return;
   }
+  operation -= widthImg;
+  sliderCarrusel.style.transform = `translate(-${operation}%)`;
+  sliderCarrusel.style.transition = "transform 0.6s ease";
+}
+
+//mostar partes de trabaje con nosotros
+function mostrarParte2() {
+  document.getElementById("parte1").style.display = "none";
+  document.getElementById("parte2").style.display = "block";
+}
+
+function mostrarParte3() {
+  document.getElementById("parte2").style.display = "none";
+  document.getElementById("parte3").style.display = "block";
+}

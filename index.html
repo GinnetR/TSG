@@ -180,8 +180,6 @@
     <!-- Primera Parte Producto -->
 
     <section class="products-section">
-        <h3>Productos
-        </h3>
         <div class="container-carrusel">
             <div class="carrusel" id="sliderCarrusel">
                 <div class="SlidesProducts"><img src="images/img1.png" alt="imagen-1"></div>
@@ -196,12 +194,44 @@
 
 
     <!-- Primera Parte TRABAJA CON NUESTRO EQUIPO -->
-    <section class="seccion">
+    <section class="seccion" id="parte1">
         <div class="contenido">
             <h2>TRABAJA CON NUESTRO EQUIPO</h2>
             <p>Si estas interesado en ser parte de nuestro equipo de colaboradores, envíanos tus datos y anexa tu hoja
                 de vida. Anímate.</p>
-            <button class="btn-gradient-2">Enviar CV</button>
+            <button class="btn-gradient-2" onclick="mostrarParte2()">Enviar CV</button>
+        </div>
+    </section>
+
+    <!-- Segunda Parte TRABAJA CON NUESTRO EQUIPO -->
+    <section class="seccion" id="parte2" style="display: none;">
+        <div class="contenido">
+            <h2>TRABAJA CON NUESTRO EQUIPO</h2>
+            <p>Si estas interesado en ser parte de nuestro equipo de colaboradores, envíanos tus datos y anexa tu hoja
+                de vida. Anímate.</p>
+            <div class="inputs-wrapper-2">
+                <input type="text" placeholder="Arrastra o sube tu CV" class="input-group-2">
+            </div>
+
+            <button class="btn-gradient-2" onclick="mostrarParte3()">Enviar CV</button>
+        </div>
+    </section>
+
+    <!-- Tercera Parte TRABAJA CON NUESTRO EQUIPO -->
+    <section class="seccion" id="parte3" style="display: none;">
+        <h2>TRABAJA CON NUESTRO EQUIPO</h2>
+        <div class="contenido-3">
+            <div class="inputs-wrapper-3">
+                <input type="text" placeholder="Tu nombre" class="input-3">
+                <input type="text" placeholder="Correo electrónico" class="input-3">
+                <input type="text" placeholder="Teléfono" class="input-3">
+            </div>
+            <div class="inputs-wrapper-3">
+                <input type="text" placeholder="Perfil aspirante" class="input-group-3">
+            </div>
+        </div>
+        </div>
+        <button class="btn-gradient-2">Enviar CV</button>
         </div>
     </section>
 
