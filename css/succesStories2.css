@@ -1,0 +1,23 @@
+.casos-exito-puntos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .casos-exito-puntos span {
+    margin:50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    .casos-exito-puntos span {
+        font-size: 18px;
+    }
+}
+  
+  
+  
+  
