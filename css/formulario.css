@@ -11,6 +11,9 @@
 body {
     background-color: white;
 }
+.titulo h1{
+    display: none;
+}
 
 .container4 {
     display: flex;
@@ -46,7 +49,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.form__input:focus + .form__label{
+.form__input:focus + .form__label,
+.form__input:not(:placeholder-shown) + .form__label{
     transform: translateY(-12px) scale(.8);
     transform-origin: left top;
     color: #3866f2;
@@ -197,8 +201,210 @@ nav a:hover{
 
 /* RESPONSIVE */
 
-@media (max-width: 650px){
+@media (max-width: 1700px){
+    .imagen-fondo img{
+        width: 800px;
+        height: 1010px;
+        transition: .3s;
+    }
+}
 
+@media (max-width: 1550px){
+    .imagen-fondo img{
+        width: 700px;
+        transition: .3s;
+
+    }
+}
+@media (max-width: 1450px){
+    .imagen-fondo img{
+        width: 600px;
+        transition: .3s;
+
+    }
+}
+@media (max-width: 1300px){
+    .imagen-fondo img{
+        width: 500px;
+        transition: .3s;
+
+    }
+}
+
+@media (max-width: 1200px){
+    .imagen-fondo img{
+        display: none;
+        transition: .3s;
+    }
+
+    .form {
+        padding-right: 50px;
+        width: 1200px;
+        display: grid;
+        align-items: baseline;
+        justify-content: left baseline;
+    }
+    
+    .form__group {
+        position: relative;
+        --color: #5757577e;
+        margin-bottom: 40px;
+    }
+    
+    .form__input {
+        position: relative;
+        top: 150px;
+        right: 70%;
+        width: 100%;
+        background: none;
+        color: #706c6c;
+        font-size: 1rem;
+        padding: .6em .3em;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid var(--color);
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .form__input:focus + .form__label{
+        transform: translateY(-12px) scale(.8);
+        transform-origin: left top;
+        color: #3866f2;
+    }
+    
+    .form__label{
+        color: var(--color);
+        cursor: pointer;
+        position: absolute;
+        top: 150px;
+        left: -330px;
+        transform: translateY(10px);
+        transition: transform .5s, color .3s;
+    }
+    
+    .form__line {
+        position: absolute;
+        top:  190px;
+        left: -90px;
+        width: 100%;
+        height: 1px;
+        background-color: gray;
+        transform: scale(0);
+        transform: left bottom;
+        transition: transform .4s;
+    }
+    
+    .buttons {
+        width: 100%;
+        gap: 20px;
+        display: flex;
+        justify-content: left;    
+        position: relative;
+        right: 70%;
+        top: 150px;
+    }
+    
+    .capcha {
+        justify-content: left;    
+        position: relative;
+        right: 70%;
+        top: 180px;
+    }
+    
+    .button {
+        cursor: pointer;
+        font-weight: 800;
+        color: #421B9B;
+        justify-content: left;    
+        position: relative;
+        right: 70%;
+        top: 205px;
+        border-radius: 50px;
+        width: 25%;
+        height: 55px;
+        padding: 10px;
+        font-size: 18px;
+        border-color: #421B9B;
+        transition: .5s;
+    }
+    
+    .button:hover {
+        color: white;
+        background: #421B9B;
+        transition: .5s;
+    }
+    
+    .formkit-input {
+        top: 110px;
+        width: 100%;
+        height: 50px;
+        right:  70%;
+        position: relative;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        color: gray;
+        border-bottom: 1px solid var(--color);
+        font-family: 'Montserrat', sans-serif;
+        padding-bottom: -250px;
+    }
+    
+}
+
+
+@media (max-width: 400px){
+    .titulo h1{
+        color: #02143F;
+        display: block;
+        font-size: 30px;
+        position: relative;
+        right: 30%;
+    }
+
+    .container4 {
+        display: flex;
+        margin-bottom: 10px;
+        padding-bottom: 100px;
+    }
+    .form__label{
+        left: 20px;
+    }
+    .form__line{
+        position: relative;
+        right:  -210px;
+    }
+    .form__input{
+        left: 7%;
+        width: 100%;
+    }
+
+    .formkit-input{
+        left: 7%;
+    }
+
+    .buttons {
+        left: 7%;
+    }
+
+    .capcha {
+        left: 7%;
+    }
+
+    .button {
+        width: 35%;
+        left: 7%;
+    }
+}
+
+
+
+@media (max-width: 650px){
+    .menu3{
+        position: relative;
+        top: -3px;
+        font-weight: 700;
+        font-size: 20px;
+    }
     .nav{
         padding: 0px;
     }
@@ -212,7 +418,8 @@ nav a:hover{
         top: 0;
         left: 50%;
         position: absolute;
-        background-color: rgba(255, 255, 255, 0.20);
+        background-color: white;
+        box-shadow: -14px -1px 5px 0px rgba(0,0,0,0.25);
         backdrop-filter: blur(9px);
         width: 100%;
         height: 100vh;
@@ -237,7 +444,7 @@ nav a:hover{
 
     .nav .nav-links ul li{
         margin: 25px 0px;
-        font-size: 1.2rem;
+        font-size: 0.5rem;
     }
 }
 

@@ -149,6 +149,7 @@ nav a:hover {
     }
 
     .menu-drop {
+        box-shadow: -14px -1px 5px 0px rgba(0,0,0,0.75);
         cursor: pointer;
         display: block;
     }
