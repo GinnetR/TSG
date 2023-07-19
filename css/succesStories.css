@@ -1,0 +1,85 @@
+.casos-exito-section {
+    background-color: rgba(203, 188, 246, 1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.products-header {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 20px;
+    margin: 70px;
+}
+
+.casos-exito-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.casos-exito-title {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.casos-exito-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.caso-exito-image {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    cursor: pointer;
+    transition: filter 0.3s ease;
+}
+
+.caso-exito-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.caso-exito-image:hover {
+    filter:hue-rotate(100deg) 
+    
+}
+
+.casos-exito-dots {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.dot-succs {
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+/* Ajustes para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .casos-exito-title {
+        font-size: 20px;
+    }
+    .caso-exito-image {
+        width: 100px;
+        height: 100px;
+    }
+    .casos-exito-dots {
+        margin-bottom: 5px;
+    }
+    .dot {
+        width: 6px;
+        height: 6px;
+        margin: 0 3px;
+    }
+}
