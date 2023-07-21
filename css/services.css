@@ -165,6 +165,14 @@ body {
   left: 77%;
   top: 72%;
 }
+
+
+.slide2 H1{
+  color: white;
+  position: absolute;
+  top: 25%;
+  right: 80%;
+}
   /* Header */
 
 .header{
@@ -227,6 +235,81 @@ nav a:hover{
 
 /* RESPONSIVE */
 
+@media (max-width: 450px){ 
+  .swiper-slide {
+    width: 120%;
+  }
+
+  .swiper-slide:nth-child(2n) {
+    width: 120%;
+  }
+
+  .swiper-slide:nth-child(3n) {
+    width: 130%;
+  }
+
+  .swiper-slide:nth-child(4n) {
+    width: 100%;
+  }
+
+  .slide1 h1{
+    position: relative;
+    right: 10%;
+    top: 90%;
+    font-size: 40px;
+  }
+
+  .slide1 p {
+    position: relative;
+    top: 25%;
+    font-size: 14px;
+  }
+
+  .button {
+    width: 30%;
+    right: 20%;
+  }
+
+  .slide1 h6 {
+    font-size: 20px;
+    right: 20%;
+  }
+
+  .slide1 .flecha {
+    width: 100px;
+    height: 100px;
+    left: 64%;
+  }
+
+  .slide1 h5 {
+    font-size: 25px;
+    left: 24%;
+    bottom: 100px;
+  }
+
+  .slide2 h1 {
+    right: 40%;
+  }
+
+  .slide2 h6{
+    right: 60%;
+    top: 82%;
+    font-size: 20px;
+  }
+
+  .slide2 h5{
+    top: 81%;
+    font-size: 25px;
+    left: 60%;
+  }
+
+  .slide2 .flecha2 {
+    width: 100px;
+    height: 100px;
+    left: 62%; 
+    top: 73%;
+}
+
 @media (max-width: 650px){
 
     .nav{
@@ -269,4 +352,5 @@ nav a:hover{
         margin: 25px 0px;
         font-size: 1.2rem;
     }
+}
 }
