@@ -67,14 +67,10 @@
   color: white;
 }
 
-.swiper-button-prev{
+.swiper-button-prev,.swiper-button-next{
 
   display: block !important;
   opacity: 1 !important;
+  pointer-events: all !important;
 
-}
-
-.swiper-button-next{
-display: block !important;
-opacity: 1 !important;
 }
