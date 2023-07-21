@@ -19,6 +19,10 @@ header.abajo {
     transition: all .3s;
 }
 
+header.abajo .logo,
+header.abajo ul li a{
+    color: black;
+}
 
 nav ul {
    list-style: none;
