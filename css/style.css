@@ -149,7 +149,6 @@ nav a:hover {
     }
 
     .menu-drop {
-        box-shadow: -14px -1px 5px 0px rgba(0,0,0,0.75);
         cursor: pointer;
         display: block;
     }
@@ -165,9 +164,9 @@ nav a:hover {
         display: flex;
         justify-content: left;
         align-items: first baseline;
-        padding-left: 80px;
+        padding-left: 20px;
         padding-top: 80px;
-        margin-left: -200%;
+        margin-left: -300%;
         transition: all .5s ease;
     }
 
