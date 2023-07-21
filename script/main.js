@@ -6,6 +6,9 @@ const navLinks = document.querySelector(".nav-links")
 window.addEventListener("scroll", function(){
     var header = document.querySelector("header");
     header.classList.toggle("abajo", window.scrollY>0);
+    document.getElementById("menu").style.color = "black";
+    document.getElementById("menu2").style.color = "black";
+    document.getElementById("menu3").style.color = "black";
     document.getElementById("icono").src="images\icon _home_negra.png";
     document.getElementById("menu-drop").src="images\barras_negras.png";
 })
