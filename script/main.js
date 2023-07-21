@@ -1,7 +1,9 @@
 const menuDrop = document.querySelector(".menu-drop")
 const navLinks = document.querySelector(".nav-links")
 
-
+menuDrop.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+})
 
 window.addEventListener("scroll", function(){
     var header = document.querySelector("header");
@@ -13,9 +15,6 @@ window.addEventListener("scroll", function(){
     document.getElementById("menu-drop").src="images\barras_negras.png";
 })
 
-menuDrop.addEventListener('click',()=>{
-    navLinks.classList.toggle('mobile-menu')
-})
 
 let slide = document.querySelectorAll('.slide');
 var current = 0;
