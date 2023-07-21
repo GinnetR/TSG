@@ -30,6 +30,8 @@ document.querySelector('.product-next').addEventListener('click', () => {
   product_swiper.slideNext();
 });
   
+
+//trabaje con nosotros
 function mostrarParte2() {
   document.getElementById("parte1").style.display = "none";
   document.getElementById("parte2").style.display = "block";
@@ -41,7 +43,7 @@ function mostrarParte3() {
 }
 
 
-
+//casos de exito
 function mostrarParte2Exito(){
   document.getElementById("casos-exito-primera").style.display = "none";
   document.getElementById("casos-exito-segunda").style.display = "block";
