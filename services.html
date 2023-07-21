@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Servicios</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/services.css">
+</head>
+
+<body>
+  <!-- Swiper -->
+
+
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide slide1">
+       <caption class="caption1">
+        <header class="header">
+            <div class="icono">
+                <a href="index.html" id="icono">
+                    <img src="images/icon _home_naranja.png" alt="" id="icono">
+                </a>
+            </div>
+            <nav class="nav">
+                <div class="nav-links">
+                    <ul>
+                        <li></li><a href="#" id="menu2" style='text-decoration:none;color:#02143F'>Empleo</a></li>
+                        <li></li><a href="contact.html" id="menu3" style='text-decoration:none;color:#02143F'>Contáctanos</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <h1>SERVICIO 1</h1>
+        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
+            Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto
+            Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto
+            Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto
+        </p>
+        <div class="enviar">
+            <input type="submit" name="submit" value="Adquirir" class="button">
+        </div>
+        <h6>#SERVICIOS</h6>
+        <a href=".swiper-pagination"><img src="images/flecha1.svg" alt="" class="flecha"></a>
+        <h5>Scroll</h5>
+       </caption>
+      </div>
+      <div class="swiper-slide slide2">
+        <img src="images/slider3.png" alt="">
+        <h1>SERVICIO 1</h1>
+        <h6>#SERVICIOS</h6>
+        <a href=".swiper-pagination"><img src="images/flecha2.svg" alt="" class="flecha2"></a>
+        <h5>Scroll</h5>
+      </div>
+      <div class="swiper-slide slide1">
+        <h1>SERVICIO 2</h1>
+        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
+            Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto
+            Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto
+            Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto
+        </p>
+        <h6>#SERVICIOS</h6>
+        <a href=".swiper-pagination"><img src="images/flecha1.svg" alt="" class="flecha"></a>
+        <h5>Scroll</h5>
+      </div>
+      <div class="swiper-slide slide2">
+        <h1>SERVICIO 2</h1>
+        <img src="images/slider3.png" alt="">
+        <h6>#SERVICIOS</h6>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: "auto",
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+</html>
