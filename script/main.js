@@ -109,7 +109,7 @@ function start(){
 start();
 
 
-const swiper = new Swiper('.swiper', {
+const x_swiper = new Swiper('.x-swiper', {
     parallax: true,
     direction: 'horizontal',
     slidesPerView: 3,

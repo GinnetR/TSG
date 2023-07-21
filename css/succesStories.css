@@ -6,7 +6,7 @@
     
 }
 
-.products-header {
+.casos-exito-header {
     display: flex;
     flex-direction: column; 
     margin-bottom: 20px;
@@ -65,7 +65,7 @@
     margin: 0 5px;
 }
 
-/* Ajustes para pantallas más pequeñas */
+
 @media screen and (max-width: 768px) {
     .casos-exito-title {
         font-size: 20px;
