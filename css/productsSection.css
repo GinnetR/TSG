@@ -1,65 +1,80 @@
 .products-section {
   background-color: rgba(235, 112, 100, 1);
   padding: 20px;
-  text-align: center;
-  overflow: hidden;
-  height: 100vh;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+
+}
+
+.products-header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin: 70px;
+}
+
+.products-icon {
+  width: 30px;
+  height: 30px;
+}
+
+
+.products-strong {
+  display: flex;
   justify-content: center;
+  margin-bottom: 20px;
+  color: rgba(2, 20, 63, 1);
+  ;
 }
 
-.SlidesProducts {
-  width: calc(100% / 3);
-  height: 100%;
+.bk-slider {
+  width: 1200px;
+  margin: auto;
 }
 
-
-.SlidesProducts img {
+.product-swiper {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.container-carrusel {
-  width: 500px;
-  height: 300px;
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
+.swiper-slide-custom {
+  background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
 }
 
-.carrusel {
-  width: 300%;
-  height: 100%;
-  display: flex;
+.swiper-slide-custom img {
+  display: block;
+  width: 100%;
 }
 
-.btn-left,
-.btn-right {
-  display: flex;
-  position: absolute;
-  top: 420%;
-  font-size: 1.5rem;
-  background-color: transparent;
-  border-radius: 50%;
-  padding: 5px;
-  font-weight: 600;
+.product-prev,
+.product-next {
+  color: transparent;
+}
+
+.products-controls button {
+  top: 50%;
   cursor: pointer;
-  color: #fff;
-  transform: translate(0, 50%);
-  transition: .5s ease;
-  user-select: none;
+  padding: 5px 10px;
 }
 
-.btn-left:hover,
-.btn-right:hover {
-  background-color: #333333d4;
-  color: #fff;
+.product-pagination {
+  padding: 5px 10px;
+  color: white;
 }
 
-.btn-right {
-  right: 10px;
+.swiper-button-prev{
+
+  display: block !important;
+  opacity: 1 !important;
+
 }
 
-.btn-left {
-  left: 10px;
+.swiper-button-next{
+display: block !important;
+opacity: 1 !important;
 }
