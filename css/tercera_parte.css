@@ -170,7 +170,7 @@
     left: 270px;
 }
 
-@media (max-height: 830px){
+@media (max-height: 850px){
     .logo{
         margin-top: -40px;
         margin-bottom: -100px;
@@ -200,18 +200,6 @@
 }
 
 @media (max-height: 800px){
-    .logos2{
-        margin-top: -90px;
-        height: 300px;
-    }
-}
-@media (max-height: 900px){
-    .logos2{
-        margin-top: -90px;
-        height: 300px;
-    }
-}
-@media (max-height: 1000px){
     .logos2{
         margin-top: -90px;
         height: 300px;
