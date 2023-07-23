@@ -170,3 +170,13 @@
     left: 270px;
 }
 
+@media (max-height: 830px){
+    .logo{
+        margin-top: -40px;
+        margin-bottom: -100px;
+    } 
+    .logos3 {
+        display: none;
+    }
+    
+}
