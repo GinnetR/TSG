@@ -798,3 +798,102 @@ nav a:hover {
   }
 
 }
+
+
+
+@media screen and ( max-height: 800px ) { 
+  .slide1 p{
+    font-size: 20px;
+    right: 70px;
+  }
+
+  .button {
+    top: 150px;
+  }
+
+  .slide3 .flecha3 {
+    left: 70%;
+    top: -20px;
+  }
+
+  .slide3 h5{
+    left: 26%;
+    bottom: 60px;
+  }
+}
+
+
+@media ( max-height: 720px ) {
+  .button{
+    top: 150px;
+  }
+
+  .slide3 .flecha3{
+    bottom: 30px;
+    left: 76%;
+  }
+
+  .slide3 h5{
+    bottom: 50px;
+    left: 33%;
+  }
+  .slide2 .flecha2{
+    bottom: 30px;
+  }
+}
+
+
+@media ( max-height: 620px ) {
+  .slide1 h1 {
+    top: 50%;
+  }
+  .slide1 p {
+    top: 60%;
+  }
+
+  .button {
+    top: 100px;
+  }
+
+  .slide1 h6 {
+    top: 130px;
+  }
+  .slide1 h5 {
+    bottom: 60px;
+  }
+
+  .slide3 h1{
+    top: 30%;
+  }
+
+  .slide3 p{
+    top: 30%;
+  }
+
+  .slide3 h6{
+    top: 130px;
+  }
+
+  .slide2 .flecha2{
+    top: 420px;
+  }
+}
+
+@media ( max-height: 600px ) {
+  .slide2 .flecha2{
+    top: 400px;
+  }
+}
+
+@media ( max-height: 570px ) {
+  .slide2 .flecha2{
+    top: 380px;
+  }
+}
+
+
+@media ( max-height: 550px ) {
+  .slide2 .flecha2{
+    top: 350px;
+  }
+}

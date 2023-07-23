@@ -216,3 +216,28 @@ h4{
 }
 
 
+@media (max-height: 920px){
+    .derechos {
+        margin-right: -160px;
+        margin-left: -160px;
+    }
+}
+
+@media (max-height: 830px){
+    .derechos{
+        margin-top: 30px;
+    }
+}
+
+@media (max-height: 780px){
+    .derechos{
+        margin-top: 50px;
+    }
+}
+
+@media (max-height: 690px){
+    .derechos{
+        margin-top: 70px;
+        margin-left: -200px;
+    }
+}
