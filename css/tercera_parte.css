@@ -180,3 +180,14 @@
     }
     
 }
+
+
+@media (max-height: 600px){
+    .logos2{
+        margin-top: -90px;
+        height: 300px;
+    }
+    .logos2::before {
+        margin-top: -20px;
+    }
+}
