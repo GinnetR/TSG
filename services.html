@@ -43,16 +43,20 @@
             <input type="submit" name="submit" value="Adquirir" class="button">
         </div>
         <h6>#SERVICIOS</h6>
-        <a href=".swiper-pagination"><img src="images/flecha1.svg" alt="" class="flecha"></a>
-        <h5>Scroll</h5>
+        <div class="boton">
+          <a href=".swiper-pagination"><img src="images/flecha1.svg" alt="" class="flecha"></a>
+          <h5>Scroll</h5>
+        </div>
        </caption>
       </div>
       <div class="swiper-slide slide2">
         <img src="images/slider3.png" alt="">
         <h1>SERVICIO 1</h1>
         <h6>#SERVICIOS</h6>
-        <a href=".swiper-pagination"><img src="images/flecha2.svg" alt="" class="flecha2"></a>
-        <h5>Scroll</h5>
+        <div class="boton">
+          <a href=".swiper-pagination"><img src="images/flecha2.svg" alt="" class="flecha2"></a>
+          <h5>Scroll</h5>
+        </div>
       </div>
       <div class="swiper-slide slide3">
         <h1>SERVICIO 2</h1>
@@ -62,8 +66,10 @@
             Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto
         </p>
         <h6 >#SERVICIOS</h6>
-        <a href=".swiper-pagination"><img src="images/flecha1.svg" alt="" class="flecha3"></a>
-        <h5>Scroll</h5>
+        <div class="boton">
+          <a href=".swiper-pagination"><img src="images/flecha1.svg" alt="" class="flecha3"></a>
+          <h5>Scroll</h5>
+        </div>
       </div>
       <div class="swiper-slide slide2">
         <h1>SERVICIO 2</h1>
@@ -85,10 +91,14 @@
       direction: 'horizontal',
       slidesPerView: "auto",
       spaceBetween: 30,
+      navigation: {
+        nextEl: ".boton", 
+      },
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
       },
+      mousewheel: true,
     });
   </script>
 </body>

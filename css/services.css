@@ -126,7 +126,7 @@ body {
     color: #421B9B;
     position: relative;
     left: 37%;
-    bottom:  110px;
+    bottom:  40px;
 }
 
 .slide1 h6 {
@@ -172,6 +172,7 @@ body {
   height: 140px;
   position: relative;
   left: 80%;
+  bottom: 80px;
 }
 
 .slide2 h5{
@@ -303,13 +304,14 @@ nav a:hover{
     }
 }
 
-@media (max-width: 1500px){ 
+@media (max-width: 1550px){ 
   .slide1 h1 {
     right: 0%;
   }
 
   .slide1 .flecha{
     left:  80%;
+    bottom: 10px;
   }
 
   .slide1 p {
@@ -456,6 +458,7 @@ nav a:hover{
     position: relative;
     bottom: 12%;
     left:  68%;
+    bottom: 50px;
   }
 
   .slide3 p {
@@ -470,6 +473,7 @@ nav a:hover{
   }
   .slide3 h5{
     left: 27%;
+    bottom: 110px;
   }
 
   .button {
@@ -596,12 +600,11 @@ nav a:hover{
   }
   .slide3 .flecha3 {
     left: 54%;
-    font-size: 10px;
   }
   .slide3 h5{
     font-size: 25px;
     left: 18%;
-    bottom:  110%;
+    bottom:  80px;
   }
 }
 
@@ -674,7 +677,7 @@ nav a:hover{
   .slide3 h5 {
     font-size: 25px;
     left: 12%;
-    bottom:  140px;
+    bottom: 40px;
   }
 
   .slide1 p {
@@ -697,12 +700,13 @@ nav a:hover{
     width: 100px;
     height: 100px;
     left: 64%;
+    bottom: 50px;
   }
 
   .slide1 h5 {
     font-size: 25px;
     left: 24%;
-    bottom: 100px;
+    bottom: 70px;
   }
 
   .slide2 h1 {
@@ -771,4 +775,5 @@ nav a:hover{
         font-size: 1.2rem;
     }
 }
+
 }
