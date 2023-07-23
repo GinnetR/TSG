@@ -191,3 +191,29 @@
         margin-top: -20px;
     }
 }
+
+@media (max-height: 700px){
+    .logos2{
+        margin-top: -90px;
+        height: 300px;
+    }
+}
+
+@media (max-height: 800px){
+    .logos2{
+        margin-top: -90px;
+        height: 300px;
+    }
+}
+@media (max-height: 900px){
+    .logos2{
+        margin-top: -90px;
+        height: 300px;
+    }
+}
+@media (max-height: 1000px){
+    .logos2{
+        margin-top: -90px;
+        height: 300px;
+    }
+}
