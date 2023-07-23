@@ -334,3 +334,16 @@
         height: 220px;
     }
 }
+
+
+
+@media (max-height: 600px){
+    .image{
+        display: none;
+    }
+
+    .texto{
+        position: relative; 
+        margin-bottom: 150px;
+    }
+}
