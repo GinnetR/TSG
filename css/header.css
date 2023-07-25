@@ -1,7 +1,7 @@
 /* Header */
 
 .header{
-    position: fixed;
+    position: sticky;
     width: 100%;
     background-color: transparent;
     display: flex;
@@ -15,6 +15,7 @@
 }
 
 header.abajo {
+    padding: 20px;
     background-color: white ;
     transition: all .3s;
 }
