@@ -193,15 +193,24 @@
 }
 
 @media (max-height: 700px){
+
+    .logos{
+        margin-bottom: 0px;
+    }
     .logos2{
-        margin-top: -90px;
+        top: -200px;
+        margin-top: -500px;
         height: 300px;
     }
 }
 
 @media (max-height: 800px){
+    .logos{
+        height: 400px;
+        margin-bottom: 100px;
+    }
     .logos2{
         margin-top: -90px;
-        height: 300px;
+        height: -300px;
     }
 }
