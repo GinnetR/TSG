@@ -332,14 +332,14 @@
 
 @media (max-height: 830px){
     .swiper-slide h1{
-        font-size: 115px;
+        font-size: 55px;
     }
 
     .swiper-slide h4{
-        font-size: 25px;
+        font-size: 15px;
     }
     .swiper-slide h5{
-        font-size: 25px;
+        font-size: 15px;
     }
 }
 
@@ -357,16 +357,16 @@
 
 @media (max-height: 690px){
     .swiper-slide{
-        margin-bottom: -100px;
+        margin-bottom: 100px;
     }
     .swiper-slide h1{
-        font-size: 105px;
+        font-size: 45px;
     }
     .swiper-slide h4{
-        font-size: 25px;
+        font-size: 15px;
     }
     .swiper-slide h5{
-        font-size: 25px;
+        font-size: 15px;
     }
 }
 
@@ -378,4 +378,16 @@
     .linea2{
         height: 220px;
     }
+}
+
+@media (max-height: 620px){
+    .image{
+        display: none;
+    }
+
+    .swiper-slide{
+        padding-top: 100px;
+    }
+
+    
 }

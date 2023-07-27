@@ -247,3 +247,32 @@ h4{
     }
 }
 
+@media (max-height: 620px){
+    .correo{
+        height: 70vh;
+    }
+
+    .links{
+       top: -90px;
+    }
+
+    .derechos{
+        top: 50px;
+    }
+}
+
+
+@media (max-height: 820px){
+    .correo{
+        height: 70vh;
+    }
+
+    .links{
+       top: -90px;
+    }
+
+    .derechos{
+        top: 80px;
+    }
+}
+
