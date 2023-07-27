@@ -160,14 +160,21 @@
 
 }
 
+@media (max-width: 1250px){
+    .image{
+        padding-top: 88px;
+    }
+}
+
+
 @media (max-width: 950px){
     .texto{
         font-family: 'Montserrat', sans-serif;
         position: relative;
         top: 13%;
-        left: 25%;
+        left: 45%;
         font-size: 30px;
-        margin-right: 300px;
+        margin-left: -200px;
         align-items: center;
         text-align: left;
         color: white;
@@ -176,6 +183,10 @@
 
     .image img{
         padding-top: 12%;
+    }
+
+    .swiper-slide h1{
+        font-size: 70px;
     }
 }
 
@@ -187,7 +198,7 @@
     .swiper-slide  h1 {
         position: relative;
         top: -16%;
-        font-size: 80px;
+        font-size: 50px;
         color: #EB7064;
         text-align: center;
     }
@@ -216,6 +227,43 @@
         height: 130vh;
     }
 }
+
+@media (max-width: 800px){
+    .texto{
+        margin-right: 400px;
+        left:  400px;
+    }
+
+    .image{
+        padding-bottom: 30px;
+    }
+    .linea1{
+        height: -100px;
+    }
+}
+
+@media (max-width: 650px){
+    .swiper-slide{
+        right: 10px;
+    }
+    .linea1{
+        display: none;
+    }
+    .linea2{
+        display: none;
+    }
+    .texto{
+        margin-left: -400px;
+        left: 500px;
+    }
+}
+
+@media (max-width: 550px){
+    .image{
+        padding-top: 130px;
+    }
+}
+
 
 @media (max-width: 450px){
     .container2 {
@@ -273,5 +321,61 @@
 
     swiper{
         display: grid;
+    }
+}
+
+@media (max-height: 920px){
+    .texto{
+        margin-right: 600px;
+    }
+}
+
+@media (max-height: 830px){
+    .swiper-slide h1{
+        font-size: 115px;
+    }
+
+    .swiper-slide h4{
+        font-size: 25px;
+    }
+    .swiper-slide h5{
+        font-size: 25px;
+    }
+}
+
+@media (max-height: 780px){
+    .image{
+        margin-top: -100px
+    }
+}
+@media (max-height: 920px){
+    .image{
+        margin-top: -150px;
+        margin-bottom: -50px;
+    }
+}
+
+@media (max-height: 690px){
+    .swiper-slide{
+        margin-bottom: -100px;
+    }
+    .swiper-slide h1{
+        font-size: 105px;
+    }
+    .swiper-slide h4{
+        font-size: 25px;
+    }
+    .swiper-slide h5{
+        font-size: 25px;
+    }
+}
+
+@media (max-height: 660px){
+    .image{
+        margin-bottom: -80px;
+    }
+    .linea1,
+    .linea2{
+        height: 220px;
     }
 }

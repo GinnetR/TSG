@@ -170,3 +170,8 @@
     left: 270px;
 }
 
+@media (max-width: 1250px) {
+    .logos3{
+        display: none;
+    }
+}
