@@ -164,8 +164,8 @@ h4{
 @media (max-width: 1000px){
     .derechos{
         position: relative;
-        top: 350%;
-        left: 140%;
+        top: 320%;
+        left: 54%;
     }
     .correo {
         display: grid;
@@ -186,13 +186,18 @@ h4{
     }
 }
 
+@media (max-width: 800px){
+    .derechos{
+        top: 290%;
+    }
+}
 
 @media (max-width: 550px){
     .derechos {
         margin-right: 349px;
         position: relative;
-        top: 139px;
-        left: 400px;
+        top: 104px;
+        left: 155px;
     }
 }
 
@@ -215,4 +220,59 @@ h4{
     }
 }
 
+
+@media (max-height: 920px){
+    .derechos {
+        margin-right: -160px;
+        margin-left: -160px;
+    }
+}
+
+@media (max-height: 830px){
+    .derechos{
+        margin-top: 30px;
+    }
+}
+
+@media (max-height: 780px){
+    .derechos{
+        margin-top: 50px;
+    }
+}
+
+@media (max-height: 690px){
+    .derechos{
+        margin-top: 70px;
+        margin-left: -200px;
+    }
+}
+
+@media (max-height: 620px){
+    .correo{
+        height: 70vh;
+    }
+
+    .links{
+       top: -90px;
+    }
+
+    .derechos{
+        top: 50px;
+    }
+}
+
+
+@media (max-height: 820px){
+    .correo{
+        height: 70vh;
+    }
+
+    .links{
+       top: -90px;
+    }
+
+    .derechos{
+        top: 80px;
+    }
+}
 
