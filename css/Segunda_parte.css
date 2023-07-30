@@ -103,7 +103,7 @@
 @media (max-width: 1450px){
     
     .image img{
-        padding-top: 6%;
+        padding-top: 8%;
     }
 
     .swiper-wrapper{
@@ -160,9 +160,15 @@
 
 }
 
+@media (max-width: 1350px){
+    .image{
+        padding-top: 10%;
+    }
+}
+
 @media (max-width: 1250px){
     .image{
-        padding-top: 88px;
+        padding-top: 10%;
     }
 }
 
