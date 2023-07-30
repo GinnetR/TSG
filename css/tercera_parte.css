@@ -181,3 +181,10 @@
         display: none;
     }
 }
+
+
+@media only screen and (max-height:650px) and (max-width:900px){
+    .logos2{
+        display: none;
+    }
+}
