@@ -1138,4 +1138,19 @@ nav a:hover {
 }
 
 
+@media only screen and (max-height:768px) and (max-width:1366px){
+  .slide1 p{
+    top: 150px;
+    font-size: 20px;
+  }
+
+  .slide3 .flecha3{
+    bottom: 10px; 
+  }
+
+  .slide3 h5{
+    bottom: 40px;
+  }
+}
+
 

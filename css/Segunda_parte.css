@@ -525,3 +525,17 @@
 }
 
 
+@media only screen and (max-height:768px) and (max-width:1366px){
+    .swiper-slide h1{
+        font-size: 120px;
+    }
+    .swiper-slide h5{
+        font-size: 30px;
+    }
+    .swiper-slide h4{
+        font-size: 30px;
+    }
+}
+
+
+
