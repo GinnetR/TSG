@@ -331,4 +331,14 @@ h4{
     }
 }
 
+@media only screen and (max-height:768px) and (max-width:1366px){
+    .derechos{
+        left: -10%;
+    }
+    .correo{
+        height: 35vh;
+    }
+}
+
+
 
