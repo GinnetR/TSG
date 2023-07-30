@@ -798,3 +798,344 @@ nav a:hover {
   }
 
 }
+
+@media (max-height: 750px) {
+  .slide1 h1 {
+    font-size: 100px;
+    right: 13%;
+  }
+  .slide1 p{
+    font-size: 20px;
+    left: 10%;
+  }
+
+  .slide3 h1 {
+    font-size: 100px;
+    right: 13%;
+  }
+  .slide3 p{
+    font-size: 20px;
+    left: 10%;
+  }
+
+  .slide3 .flecha3{
+    bottom: 20%;
+  }
+
+  .slide3 h5 {
+    bottom: 40px;
+    left: 34%;
+  }
+
+  .slide2 h5{
+    top: 85%;
+  }
+}
+
+@media (max-height: 650px) {
+  .slide1 h1{
+    top: 150px;
+  }
+  .slide1 p{
+    top: 100px;
+    font-size: 18px;
+  }
+
+  .slide3 h1{
+    top: 150px;
+  }
+  .slide3 p{
+    top: 100px;
+    font-size: 18px;
+  }
+}
+
+@media (max-height: 550px) {
+  .slide1 h1{
+    font-size: 90px;
+    right: 15%;
+  }
+
+  .slide1 p{
+    top: 120px;
+  }
+
+  .slide1 h6{
+    top: 150px;
+  }
+
+  .slide2 .flecha2{
+    top: 60%;
+  }
+  
+  .slide2 h5{
+    top: 80%;
+  }
+  .slide3 h1{
+    font-size: 90px;
+    right: 15%;
+  }
+
+  .slide3 p{
+    top: 120px;
+  }
+
+  .slide3 h6{
+    top: 150px;
+  }
+
+}
+
+@media only screen and (max-height:550px) and (max-width:1050px){
+  .slide1 h1{
+    font-size: 90px;
+    left: -34px;
+  }
+
+  .slide1 p{
+    font-size: 17px;
+    margin-right: 100px;
+  }
+
+  .button{
+    height: 50px;
+    font-size: 15px;
+  } 
+
+  .slide1 h6{
+    right: 200px;
+  }
+
+  .slide1 .flecha{
+    width: 20%;
+    height: 30%;
+
+  }
+
+  .slide2 h5{
+    top: 80%;
+    left: 140px;
+  }
+  .slide2 h6{
+    right: 60%;
+  }
+
+  .slide3 h1{
+    font-size: 90px;
+    left: -34px;
+  }
+
+  .slide3 p{
+    font-size: 17px;
+    margin-right: 250px;
+  }
+
+  .slide3 h6{
+    right: 200px;
+  }
+
+  .slide1 .flecha3{
+    width: 20%;
+    height: 30%;
+    left: 30px;
+  }
+
+  .slide3 h5{
+    left: 29%;
+  }
+}
+
+
+@media only screen and (max-height:550px) and (max-width:900px){
+  .slide1 h1{
+    font-size: 80px;
+    left: 2%;
+  }
+
+  .slide1 h6{
+    right: 25%;
+    font-size: 20px;
+  }
+
+  .slide1 h5{
+    font-size: 19px;
+  }
+
+  .slide2 .flecha2{
+    width: 20%;
+    height: 20%;
+    top: 65%;
+  }
+
+  .slide2 h5{
+    font-size: 19px;
+  }
+
+  .slide3 h1{
+    font-size: 80px;;
+  }
+
+  .slide3 h6{
+    right: 25%;
+    font-size: 20px;
+  }
+
+  .slide3 h5{
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-height:650px) and (max-width:900px){
+  .slide1 h1{
+    font-size: 80px;
+    left: 2%;
+  }
+
+  .slide1 p{
+    top: 120px;
+    margin-right: 150px;
+    font-size: 15px;
+  }
+
+  .slide1 h6{
+    right: 25%;
+    font-size: 20px;
+  }
+
+  .slide1 h5{
+    font-size: 19px;
+  }
+
+  .slide2 .flecha2{
+    width: 20%;
+    height: 20%;
+    top: 65%;
+  }
+
+  .slide2 h5{
+    font-size: 19px;
+  }
+
+  .slide3 h1{
+    font-size: 80px;
+    left: 0%;
+  }
+
+  
+  .slide3 p{
+    top: 120px;
+    margin-right: 170px;
+    font-size: 15px;
+  }
+
+  .slide3 h6{
+    right: 25%;
+    font-size: 20px;
+  }
+
+  .slide3 h5{
+    font-size: 24px;
+    left: 28%;
+  }
+}
+
+@media only screen and (max-height:650px) and (max-width:1000px){
+  .slide1 p{
+    top: 120px;
+    font-size: 17px;
+    margin-right: 100px;
+  }
+
+  .button{
+    width: 30%;
+    right: 25%;
+  }
+  
+  .slide3 h1{
+    left: 0%;
+  }
+
+  .slide3 p{
+    top: 120px;
+    font-size: 17px;
+    margin-right: 200px;
+  }
+
+  .slide3 h5{
+    left: 27%;
+  }
+}
+
+
+@media only screen and (max-height:750px) and (max-width:1000px){
+  .slide1 h1{
+    font-size: 90px;
+  }
+
+  .slide1 p{
+    font-size: 17px;
+    margin-right: 140px;
+  }
+
+  .button{
+    width: 20%;
+  }
+
+  .slide3 h1{
+    font-size: 90px;
+    left: 0%;
+  }
+
+  .slide3 p{
+    font-size: 17px;
+    margin-right: 240px;
+  }
+
+  .slide3 h5{
+    left: 27%;
+  }
+}
+
+@media only screen and (max-height:750px) and (max-width:1100px){
+  .slide1 h6{
+    right: 30%;
+  }
+  .slide2 h6{
+    right: 60%;
+  }
+  .slide2 h5{
+    left: 17%;
+  }
+
+  .slide3 h6{
+    right: 30%;
+  }
+
+  .slide3 h1{
+    right: 1px;
+  }
+
+  .slide3 h5{
+    left: 28%;
+  }
+}
+
+@media only screen and (max-height:850px) and (max-width:1100px){
+  .slide1 h6{
+    right: 30%;
+  }
+
+  .slide2 h6{
+    right: 60%;
+  }
+
+  .slide3 h5{
+    bottom: 50px;
+  }
+  .slide3 .flecha3{
+    top: 0px;
+  }
+}
+
+
+
