@@ -27,9 +27,11 @@
 
 .parafo_1 {
     color: #EB7064;
+    margin-right: 40px;
 }
 .parafo_2{
     margin-bottom: 0;
+    margin-right: 40px;
 }
 
 
@@ -87,5 +89,12 @@
 
     .swiper-slide h5 {
         font-size: 3vw;
+    }
+    .linea1{
+        height: 150px;
+    }
+
+    .linea2{
+        height: 150px;
     }
 }
