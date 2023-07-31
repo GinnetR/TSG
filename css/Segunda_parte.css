@@ -1,30 +1,25 @@
-
-/*Segunda Parte*/
-
 .container2 {
     background: #02143F;
-    width: 100%;
-    height: 160vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
-/*Logo*/
 
-.logo{
+.logo {
     position: relative;
-    top: 10%;
+   
     padding-left: 7%;
 }
 
-/*Texto*/
 
-.texto{
+.texto {
     font-family: 'Montserrat', sans-serif;
     position: relative;
     top: 13%;
     left: 25%;
     font-size: 30px;
-    margin-right: 900px;
-    align-items: center;
+    margin-right: 10%;
     text-align: left;
     color: white;
     padding-bottom: 10px;
@@ -33,509 +28,64 @@
 .parafo_1 {
     color: #EB7064;
 }
+.parafo_2{
+    margin-bottom: 0;
+}
 
-/*Image central*/
 
-.image img{
+.image img {
     background-size: cover;
-    width: 98.8vw;
-    padding-top: 5%;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding-top: 0px;
 }
 
-/*Slider pequeño*/
 
-
-.swiper-slide  h1 {
+.swiper-slide h1 {
     position: relative;
-    top: -16%;
-    font-size: 150px;
+    font-size: 5vw; 
     color: #EB7064;
     text-align: center;
 }
 
-.swiper-slide  h4 {
+.swiper-slide h4 {
     position: relative;
-    font-size: 30px;
-    top: -20%;
+    font-size: 3vw; 
     color: #EB7064;
     text-align: center;
 }
-.swiper-slide  h5 {
-    align-items: center;
+
+.swiper-slide h5 {
     position: relative;
-    top: -20%;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 2.5vw; 
     color: #EB7064;
     text-align: center;
 }
 
-
-/*Slider pequeño*/
 
 .swiper {
     width: 100%;
 }
 
 
-/*RESPONSIVE*/
-
-
-@media (max-width: 1450px){
+@media (max-width: 768px) {
     
-.texto{
-    font-family: 'Montserrat', sans-serif;
-    position: relative;
-    top: 13%;
-    left: 25%;
-    font-size: 30px;
-    margin-right: 600px;
-    align-items: center;
-    text-align: left;
-    color: white;
-    padding-bottom: 10px;
-}
-
-
-}
-
-
-@media (max-width: 1450px){
-    
-    .image img{
-        padding-top: 8%;
-    }
-
-    .swiper-wrapper{
-        padding-left: 10px;
-        padding-right: 20px;
-    }
-
-    .swiper-slide  h1 {
-        position: relative;
-        top: -16%;
-        font-size: 100px;
-        color: #EB7064;
-        text-align: center;
-    }
-    
-    .swiper-slide  h4 {
-        position: relative;
-        font-size: 20px;
-        top: -20%;
-        color: #EB7064;
-        text-align: center;
-    }
-
-    .swiper-slide  h5 {
-        align-items: center;
-        position: relative;
-        top: -20%;
-        font-weight: 400;
-        font-size: 20px;
-        color: #EB7064;
-        text-align: center;
-    }
-    
-    
-}
-
-
-@media (max-width: 1450px){
-    .texto{
-        font-family: 'Montserrat', sans-serif;
-        position: relative;
-        top: 13%;
-        left: 25%;
-        font-size: 30px;
-        margin-right: 500px;
-        align-items: center;
-        text-align: left;
-        color: white;
-        padding-bottom: 10px;
-    }
-    .image img{
-        padding-top: 8%;
-    }
-
-}
-
-@media (max-width: 1350px){
-    .image{
-        padding-top: 10%;
-    }
-}
-
-@media (max-width: 1250px){
-    .image{
-        padding-top: 10%;
-    }
-}
-
-
-@media (max-width: 950px){
-    .texto{
-        font-family: 'Montserrat', sans-serif;
-        position: relative;
-        top: 13%;
-        left: 45%;
-        font-size: 30px;
-        margin-left: -200px;
-        align-items: center;
-        text-align: left;
-        color: white;
-        padding-bottom: 10px;
-    }
-
-    .image img{
-        padding-top: 12%;
-    }
-
-    .swiper-slide h1{
-        font-size: 70px;
-    }
-}
-
-@media (max-width: 800px){
-    .image img{
-        padding-top: 16%;
-    }
-
-    .swiper-slide  h1 {
-        position: relative;
-        top: -16%;
-        font-size: 50px;
-        color: #EB7064;
-        text-align: center;
-    }
-    
-    .swiper-slide  h4 {
-        position: relative;
-        font-size: 15px;
-        top: -20%;
-        color: #EB7064;
-        text-align: center;
-    }
-
-    .swiper-slide  h5 {
-        align-items: center;
-        position: relative;
-        top: -20%;
-        font-weight: 400;
-        font-size: 15px;
-        color: #EB7064;
-        text-align: center;
-    }
-
-    .container2 {
-        background: #02143F;
-        width: 100%;
-        height: 130vh;
-    }
-}
-
-@media (max-width: 800px){
-    .texto{
-        margin-right: 400px;
-        left:  400px;
-    }
-
-    .image{
-        padding-bottom: 30px;
-    }
-    .linea1{
-        height: -100px;
-    }
-}
-
-@media (max-width: 650px){
-    .swiper-slide{
-        right: 10px;
-    }
-    .linea1{
-        display: none;
-    }
-    .linea2{
-        display: none;
-    }
-    .texto{
-        margin-left: -400px;
-        left: 500px;
-    }
-}
-
-@media (max-width: 550px){
-    .image{
-        padding-top: 130px;
-    }
-}
-
-
-@media (max-width: 450px){
-    .container2 {
-        background: #02143F;
-        width: 100%;
-        height: 200vh;
-    }
-
-    .image img{
-        padding-top: 70%;
-    }
-
-    .linea1, .linea2 img{
-        height: 80px;
-    }
-    .texto{
-        font-family: 'Montserrat', sans-serif;
-        position: relative;
-        top: 13%;
-        left: 25%;
-        font-size: 30px;
-        margin-right: 200px;
-        align-items: center;
-        text-align: left;
-        color: white;
-        padding-bottom: 10px;
-    }
-
-    .swiper-slide  h1 {
-        padding-right: -20px;
-        position: relative;
-        top: -16%;
-        font-size: 30px;
-        color: #EB7064;
-        text-align: center;
-    }
-    
-    .swiper-slide  h4 {
-        position: relative;
-        font-size: 15px;
-        top: -20%;
-        color: #EB7064;
-        text-align: center;
-    }
-
-    .swiper-slide  h5 {
-        align-items: center;
-        position: relative;
-        top: -20%;
-        font-weight: 400;
-        font-size: 15px;
-        color: #EB7064;
-        text-align: center;
-    }
-
-    swiper{
-        display: grid;
-    }
-}
-
-@media (max-height: 920px){
-    .texto{
-        margin-right: 600px;
-    }
-}
-
-@media (max-height: 830px){
-    .swiper-slide h1{
-        font-size: 55px;
-    }
-
-    .swiper-slide h4{
-        font-size: 15px;
-    }
-    .swiper-slide h5{
-        font-size: 15px;
-    }
-}
-
-@media (max-height: 780px){
-    .image{
-        margin-top: -100px
-    }
-}
-@media (max-height: 920px){
-    .image{
-        margin-top: -150px;
-        margin-bottom: -50px;
-    }
-}
-
-@media (max-height: 690px){
-    .swiper-slide{
-        margin-bottom: 100px;
-    }
-    .swiper-slide h1{
-        font-size: 45px;
-    }
-    .swiper-slide h4{
-        font-size: 15px;
-    }
-    .swiper-slide h5{
-        font-size: 15px;
-    }
-}
-
-@media (max-height: 660px){
-    .image{
-        margin-bottom: -80px;
-    }
-    .linea1,
-    .linea2{
-        height: 220px;
-    }
-}
-
-@media (max-height: 620px){
-    .image{
-        display: none;
-    }
-
-    .swiper-slide{
-        padding-top: 100px;
-    }
-
-    
-}
-
-
-@media only screen and (max-height:750px) and (max-width:1000px){
-    .texto{
-        margin-right: 350px;
-        left: 20%;
-    }
-}
-
-@media only screen and (max-height:750px) and (max-width:900px){
-    .texto{
-        left: 40%;
-        margin-right: 450px;
-    }
-
-    .swiper-slide h1{
-        font-size: 80px;
-        padding-top: 60px;
-    }
-
-    .swiper-slide h4{
+    .texto {
+        left: 10%;
         font-size: 20px;
     }
 
-    .swiper-slide h5{
-        font-size: 20px;
+    .swiper-slide h1 {
+        font-size: 6vw;
     }
 
-}
-
-@media only screen and (max-height:650px) and (max-width:900px){
-    .image{
-        padding-top: 40px;
-        padding-bottom: 50px;
-    }
-}
-
-@media only screen and (max-height:650px) and (max-width:800px){
-    .parafo_1{
-        font-size: 19px;
-    }
-    .parafo_2{
-        font-size: 19px;
-        padding-bottom:150px;
+    .swiper-slide h4 {
+        font-size: 4vw;
     }
 
-    .swiper-slide h1{
-        padding-top: 50px;
-        font-size: 70px;
-    }
-
-    .image{
-        display: none;
+    .swiper-slide h5 {
+        font-size: 3vw;
     }
 }
-
-@media only screen and (max-height:550px) and (max-width:900px){
-    .parafo_2{
-        font-size: 19px;
-        padding-bottom:0px;
-    }
-
-    .swiper-slide{
-        gap: -35px;
-    }
-
-    .linea1{
-        position: relative;
-        top: 100px;
-        margin-top: -40px;
-    }
-
-    .linea2{
-        position: relative;
-        top: 100px;
-        margin-top: -40px;
-    }
-    
-    .swiper-slide h1{
-        padding-top: 0px;
-        font-size: 70px;
-    }
-}
-
-@media only screen and (max-height:550px) and (max-width:700px){
-    .texto{
-        margin-right: 380px;
-    }
-}
-
-@media only screen and (max-height:550px) and (max-width:600px){
-    .texto{
-        left: 80%;
-        margin-right: 550px;
-    }
-
-    .swiper-slide h1{
-        font-size: 50px;
-    }
-}
-
-@media only screen and (max-height:550px) and (max-width:500px){
-    .texto{
-        left: 100%;
-        margin-right: 550px;
-    }
-
-    .swiper-slide h4{
-        font-size: 15px;
-    }
-    .swiper-slide h5{
-        font-size: 15px;
-    }
-}
-
-@media only screen and (max-height:550px) and (max-width:400px){
-    .texto{
-        font-size: 15px;
-        left: 120%;
-        padding-bottom: 30px;
-    }
-
-    .swiper-slide{
-        display: grid;
-    }
-}
-
-
-@media only screen and (max-height:768px) and (max-width:1366px){
-    .swiper-slide h1{
-        font-size: 120px;
-    }
-    .swiper-slide h5{
-        font-size: 30px;
-    }
-    .swiper-slide h4{
-        font-size: 30px;
-    }
-}
-
-
-
