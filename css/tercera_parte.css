@@ -188,3 +188,14 @@
         display: none;
     }
 }
+
+@media only screen and (max-height:768px) and (max-width:1366px){
+    .logos2{
+        display: flex;
+    }
+
+    .logos3{
+        display: none;
+    }
+}
+
