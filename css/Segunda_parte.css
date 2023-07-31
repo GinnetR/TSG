@@ -1,6 +1,7 @@
 .container2 {
     background: #02143F;
-    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -8,7 +9,6 @@
 
 .logo {
     position: relative;
-   
     padding-left: 7%;
 }
 
