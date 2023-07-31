@@ -1151,6 +1151,10 @@ nav a:hover {
   .slide3 h5{
     bottom: 40px;
   }
+
+  .button{
+    top: 160px;
+  }
 }
 
 
