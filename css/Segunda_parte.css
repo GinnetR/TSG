@@ -1,30 +1,25 @@
-
-/*Segunda Parte*/
-
 .container2 {
     background: #02143F;
-    width: 100%;
-    height: 160vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
-/*Logo*/
 
-.logo{
+.logo {
     position: relative;
-    top: 10%;
     padding-left: 7%;
 }
 
-/*Texto*/
 
-.texto{
+.texto {
     font-family: 'Montserrat', sans-serif;
     position: relative;
     top: 13%;
     left: 25%;
     font-size: 30px;
-    margin-right: 900px;
-    align-items: center;
+    margin-right: 10%;
     text-align: left;
     color: white;
     padding-bottom: 10px;
@@ -32,216 +27,68 @@
 
 .parafo_1 {
     color: #EB7064;
+    margin-right: 40px;
+}
+.parafo_2{
+    margin-bottom: 0;
+    margin-right: 40px;
 }
 
-/*Image central*/
 
-.image img{
+.image img {
     background-size: cover;
-    width: 98.8vw;
-    padding-top: 5%;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding-top: 0px;
 }
 
-/*Slider pequeño*/
 
-
-.swiper-slide  h1 {
+.swiper-slide h1 {
     position: relative;
-    top: -16%;
-    font-size: 150px;
+    font-size: 5vw; 
     color: #EB7064;
     text-align: center;
 }
 
-.swiper-slide  h4 {
+.swiper-slide h4 {
     position: relative;
-    font-size: 30px;
-    top: -20%;
+    font-size: 3vw; 
     color: #EB7064;
     text-align: center;
 }
-.swiper-slide  h5 {
-    align-items: center;
+
+.swiper-slide h5 {
     position: relative;
-    top: -20%;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 2.5vw; 
     color: #EB7064;
     text-align: center;
 }
 
-
-/*Slider pequeño*/
 
 .swiper {
     width: 100%;
 }
 
 
-/*RESPONSIVE*/
-
-
-@media (max-width: 1450px){
+@media (max-width: 768px) {
     
-.texto{
-    font-family: 'Montserrat', sans-serif;
-    position: relative;
-    top: 13%;
-    left: 25%;
-    font-size: 30px;
-    margin-right: 600px;
-    align-items: center;
-    text-align: left;
-    color: white;
-    padding-bottom: 10px;
-}
-
-
-}
-
-
-@media (max-width: 1450px){
-    
-    .image img{
-        padding-top: 8%;
-    }
-
-    .swiper-wrapper{
-        padding-left: 10px;
-        padding-right: 20px;
-    }
-
-    .swiper-slide  h1 {
-        position: relative;
-        top: -16%;
-        font-size: 100px;
-        color: #EB7064;
-        text-align: center;
-    }
-    
-    .swiper-slide  h4 {
-        position: relative;
+    .texto {
+        left: 10%;
         font-size: 20px;
-        top: -20%;
-        color: #EB7064;
-        text-align: center;
     }
 
-    .swiper-slide  h5 {
-        align-items: center;
-        position: relative;
-        top: -20%;
-        font-weight: 400;
-        font-size: 20px;
-        color: #EB7064;
-        text-align: center;
-    }
-    
-    
-}
-
-
-@media (max-width: 1450px){
-    .texto{
-        font-family: 'Montserrat', sans-serif;
-        position: relative;
-        top: 13%;
-        left: 25%;
-        font-size: 30px;
-        margin-right: 500px;
-        align-items: center;
-        text-align: left;
-        color: white;
-        padding-bottom: 10px;
-    }
-    .image img{
-        padding-top: 8%;
+    .swiper-slide h1 {
+        font-size: 6vw;
     }
 
-}
-
-@media (max-width: 1350px){
-    .image{
-        padding-top: 10%;
-    }
-}
-
-@media (max-width: 1250px){
-    .image{
-        padding-top: 10%;
-    }
-}
-
-
-@media (max-width: 950px){
-    .texto{
-        font-family: 'Montserrat', sans-serif;
-        position: relative;
-        top: 13%;
-        left: 45%;
-        font-size: 30px;
-        margin-left: -200px;
-        align-items: center;
-        text-align: left;
-        color: white;
-        padding-bottom: 10px;
+    .swiper-slide h4 {
+        font-size: 4vw;
     }
 
-    .image img{
-        padding-top: 12%;
-    }
-
-    .swiper-slide h1{
-        font-size: 70px;
-    }
-}
-
-@media (max-width: 800px){
-    .image img{
-        padding-top: 16%;
-    }
-
-    .swiper-slide  h1 {
-        position: relative;
-        top: -16%;
-        font-size: 50px;
-        color: #EB7064;
-        text-align: center;
-    }
-    
-    .swiper-slide  h4 {
-        position: relative;
-        font-size: 15px;
-        top: -20%;
-        color: #EB7064;
-        text-align: center;
-    }
-
-    .swiper-slide  h5 {
-        align-items: center;
-        position: relative;
-        top: -20%;
-        font-weight: 400;
-        font-size: 15px;
-        color: #EB7064;
-        text-align: center;
-    }
-
-    .container2 {
-        background: #02143F;
-        width: 100%;
-        height: 130vh;
-    }
-}
-
-@media (max-width: 800px){
-    .texto{
-        margin-right: 400px;
-        left:  400px;
-    }
-
-    .image{
-        padding-bottom: 30px;
+    .swiper-slide h5 {
+        font-size: 3vw;
     }
     .linea1{
         height: -100px;
@@ -457,72 +304,6 @@
     }
 
     .linea2{
-        position: relative;
-        top: 100px;
-        margin-top: -40px;
-    }
-    
-    .swiper-slide h1{
-        padding-top: 0px;
-        font-size: 70px;
+        height: 150px;
     }
 }
-
-@media only screen and (max-height:550px) and (max-width:700px){
-    .texto{
-        margin-right: 380px;
-    }
-}
-
-@media only screen and (max-height:550px) and (max-width:600px){
-    .texto{
-        left: 80%;
-        margin-right: 550px;
-    }
-
-    .swiper-slide h1{
-        font-size: 50px;
-    }
-}
-
-@media only screen and (max-height:550px) and (max-width:500px){
-    .texto{
-        left: 100%;
-        margin-right: 550px;
-    }
-
-    .swiper-slide h4{
-        font-size: 15px;
-    }
-    .swiper-slide h5{
-        font-size: 15px;
-    }
-}
-
-@media only screen and (max-height:550px) and (max-width:400px){
-    .texto{
-        font-size: 15px;
-        left: 120%;
-        padding-bottom: 30px;
-    }
-
-    .swiper-slide{
-        display: grid;
-    }
-}
-
-
-@media only screen and (max-height:768px) and (max-width:1366px){
-    .swiper-slide h1{
-        font-size: 120px;
-    }
-    .swiper-slide h5{
-        font-size: 30px;
-    }
-    .swiper-slide h4{
-        font-size: 30px;
-    }
-}
-
-
-
