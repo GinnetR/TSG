@@ -9,8 +9,10 @@
 .products-header {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
-  margin: 70px;
+  padding-left: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+ 
 }
 
 .products-icon {
@@ -34,8 +36,7 @@
 
 .product-swiper {
   height: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .swiper-slide-custom {
@@ -46,7 +47,6 @@
 }
 
 .swiper-slide-custom img {
-  display: block;
   width: 100%;
 }
 
@@ -78,6 +78,14 @@
   .bk-slider {
     max-width:100%;
   }
+  .product-swiper {
+    height: 200px;
+  }
+
+  .swiper-slide-custom img {
+    width: 250px;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -86,4 +94,8 @@
     height: 100px;
 
   }
+
+
+
+
 }
