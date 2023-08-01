@@ -1,3 +1,6 @@
+document.getElementById("icono").src="images/🦆 icon _home_.svg";
+
+
 const menuDrop = document.querySelector(".menu-drop")
 const navLinks = document.querySelector(".nav-links")
 
@@ -11,8 +14,8 @@ window.addEventListener("scroll", function(){
     document.getElementById("menu").style.color = "black";
     document.getElementById("menu2").style.color = "black";
     document.getElementById("menu3").style.color = "black";
-    document.getElementById("icono").src="images\icon _home_negra.png";
-    document.getElementById("menu-drop").src="images\barras_negras.png";
+    document.getElementById("icono").src="images/home_negra.png";
+    document.getElementById("menu-drop").src="images/barras_negras.png";
 })
 
 

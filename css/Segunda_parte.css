@@ -285,19 +285,6 @@
     .linea1, .linea2 img{
         height: 80px;
     }
-    .texto{
-        font-family: 'Montserrat', sans-serif;
-        position: relative;
-        top: 13%;
-        left: 25%;
-        font-size: 30px;
-        margin-right: 200px;
-        align-items: center;
-        text-align: left;
-        color: white;
-        padding-bottom: 10px;
-    }
-
     .swiper-slide  h1 {
         padding-right: -20px;
         position: relative;
