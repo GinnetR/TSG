@@ -626,3 +626,27 @@ nav a:hover{
         width: 50%;
     }
 }
+
+@media only screen and (max-height:760px) and (max-width:1150px){
+    .button{
+        width: 40%;
+        top: 250px;
+    }
+
+    .form__input{
+        width: 70%;
+        padding-bottom: 30px;
+    }
+
+    .form__label{
+        top: 170px;
+    }
+
+    .buttons{
+        top: 200px;
+    }
+
+    .capcha{
+        top: 220px;
+    }
+}
