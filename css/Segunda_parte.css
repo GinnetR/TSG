@@ -196,9 +196,7 @@
 }
 
 @media (max-height: 690px){
-    .swiper-slide{
-        margin-bottom: 100px;
-    }
+  
     .swiper-slide h1{
         font-size: 45px;
     }
@@ -225,9 +223,7 @@
         display: none;
     }
 
-    .swiper-slide{
-        padding-top: 100px;
-    }
+ 
 
     
 }
