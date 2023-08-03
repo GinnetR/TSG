@@ -8,7 +8,7 @@ var product_swiper = new Swiper('.product-swiper', {
     stretch: 100,
     depth: 200,
     modifier: 2.5,
-    slideShadows:true
+    slideShadows: true
   },
   loop: true,
   pagination: {
@@ -29,7 +29,7 @@ document.querySelector('.product-prev').addEventListener('click', () => {
 document.querySelector('.product-next').addEventListener('click', () => {
   product_swiper.slideNext();
 });
-  
+
 
 //trabaje con nosotros
 function mostrarParte2() {
@@ -44,7 +44,8 @@ function mostrarParte3() {
 
 
 //casos de exito
-function mostrarParte2Exito(){
+function mostrarParte2Exito() {
   document.getElementById("casos-exito-primera").style.display = "none";
   document.getElementById("casos-exito-segunda").style.display = "block";
 }
+
