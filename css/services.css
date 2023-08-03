@@ -80,15 +80,15 @@ body {
   font-size: 148px;
   position: relative;
   top: 200px;
-  right: 140px;
+  right: 70px;
 }
 
 .slide1 p {
-  font-size: 24px;
+  font-size: 22px;
   position: relative;
   top: 120px;
   margin-right: 250px;
-  left: 80px;
+  left: 100px;
 }
 
 .button {
@@ -98,7 +98,7 @@ body {
   width: 15%;
   border: 3px solid;
   border-image-slice: 1;
-  background: linear-gradient(white, white) padding-box,
+  background: linear-gradient(#E9E9E9, #E9E9E9) padding-box,
     linear-gradient(90deg, #A06EE1 0%, #421B9B 100%) border-box;
   border-radius: 50em;
   border: 4px solid transparent;
@@ -116,41 +116,42 @@ body {
 }
 
 .slide1 .flecha {
-  width: 140px;
-  height: 140px;
+  width: 100px;
+  height: 100px;
   position: relative;
-  left: 82%;
+  left: 83%;
+  top: 80%;
 }
 
 .slide1 h5 {
   font-weight: 500;
-  font-size: 30px;
-  color: #421B9B;
+  font-size: 23px;
+  color: #A06EE1;
   position: relative;
   left: 37%;
-  bottom: 40px;
+  bottom: 10px;
 }
 
 .slide1 h6 {
   position: relative;
   font-size: 25px;
-  top: 185px;
+  top: 155px;
   right: 34%;
 }
 
 .slide3 h5 {
   font-weight: 500;
-  font-size: 30px;
-  color: #421B9B;
+  font-size: 23px;
+  color: #A06EE1;
   position: relative;
-  left: 35%;
-  bottom: 130px;
+  left: 33%;
+  bottom: 10px;
 }
 
 .slide3 h6 {
   position: relative;
   font-size: 25px;
-  top: 185px;
+  top: 215px;
   right: 34%;
 }
 
@@ -158,65 +159,56 @@ body {
   font-size: 148px;
   position: relative;
   top: 200px;
-  right: 140px;
+  right: 80px;
 }
 
 .slide3 p {
-  font-size: 24px;
+  font-size: 22px;
   position: relative;
-  top: 120px;
+  top: 100px;
   margin-right: 250px;
-  left: 80px;
+  left: 100px;
 }
 
 .slide3 .flecha3 {
-  width: 140px;
-  height: 140px;
+  width: 100px;
+  height: 100px;
   position: relative;
-  left: 80%;
-  bottom: 80px;
+  left: 79%;
+  top: 84%;
 }
 
 .slide2 h5 {
+  font-weight: 500;
   color: white;
   position: absolute;
-  font-size: 30px;
-  top: 82%;
-  right: 24%;
+  font-size: 23px;
+  top: 91%;
+  right: 13%;
 }
 
 .slide2 h6 {
   color: white;
   position: absolute;
   font-size: 25px;
-  top: 80%;
+  top: 86%;
   right: 80%;
-}
-
-
-.slide2 h5 {
-  font-weight: 500;
-  color: white;
-  position: absolute;
-  font-size: 30px;
-  top: 82%;
-  right: 15%;
 }
 
 .slide2 .flecha2 {
-  width: 140px;
-  height: 140px;
-  position: absolute;
-  left: 77%;
-  top: 72%;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 330px;
+  right: 190px;
 }
 
 
-.slide2 H1 {
+.slide2 h1 {
   color: white;
   position: absolute;
   top: 25%;
-  right: 80%;
+  right: 76%;
 }
 
 /* Header */
@@ -281,77 +273,58 @@ nav a:hover {
 
 /* RESPONSIVE */
 
-@media (max-width: 1700px) {
+@media (max-width: 1550px) {
   .slide1 h1 {
-    right: 8%;
+    right: 2%;
   }
 
   .slide1 p {
+    font-size: 19px;
     right: 40%;
     margin-left: 0px;
+  }
+
+  .slide1 h5{
+    left: 35%;
   }
 
   .slide3 h1 {
-    right: 8%;
+    right: 2%;
   }
 
   .slide3 p {
-    right: 40%;
-    margin-left: 0px;
+    font-size: 19px;
+    left: 7%;
+    bottom: -100px;
   }
 
-  .slide2 h1 {
-    right: 77%;
-    margin-left: -100px;
-    top: 30%;
-  }
-}
-
-@media (max-width: 1550px) {
-  .slide1 h1 {
-    right: 0%;
+  .slide3 h5{
+    left: 32%;
   }
 
-  .slide1 .flecha {
-    left: 80%;
-    bottom: 10px;
-  }
 
-  .slide1 p {
-    right: 40%;
-    top: 150px;
-    margin-left: -10px;
+  .slide2 h6{
+    top: 85%;
+    right: 78%;
   }
 
   .slide2 h1 {
     right: 74%;
     margin-left: -100px;
-    top: 25%;
+    top: 30%;
   }
 
-  .slide2 .flecha2 {
-    left: 74%;
+  .slide2 h5{
+    bottom: 10px;
+    right: 200px;
   }
 
-  .slide3 h1 {
-    right: 0%;
-  }
-
-  .slide3 .flecha3 {
-    left: 77%;
-  }
-
-  .slide3 p {
-    right: 40%;
-    top: 150px;
-    margin-left: -10px;
-  }
-
-  .slide3 h1 {
-    right: 5%;
-    font-size: 120px;
+  .slide2 .flecha2{
+    right: 229%;
+    bottom: 90%;
   }
 }
+
 
 
 @media (max-width: 1300px) {
@@ -359,34 +332,56 @@ nav a:hover {
     width: 80%;
   }
 
+
+  .button{
+    right:  31%;
+  }
+
   .slide1 h1 {
-    left: 1%;
+    right: 2%;
     font-size: 120px;
   }
 
   .slide1 .flecha {
-    left: 79%;
+    left: 76%;
+    bottom:  30px;
   }
 
   .slide1 p {
     right: 40%;
-    font-size: 20px;
+    font-size: 15px;
     top: 150px;
     margin-left: -10px;
   }
 
+  .slide1 h6{
+    font-size: 20px;
+    right: 31%;
+  }
+
+  .slide1 h5{
+    left: 31.5%;
+    top: -40px;
+  }
+
+  .slide3 h5{
+    left: 31%;
+    bottom: 40px;
+  }
+
   .slide3 h1 {
-    right: 5%;
+    right: 8%;
     font-size: 120px;
   }
 
   .slide3 .flecha3 {
-    left: 79%;
+    left: 76%;
+    bottom:  30px;
   }
 
   .slide3 p {
     right: 40%;
-    font-size: 20px;
+    font-size: 18px;
     top: 150px;
     margin-left: -10px;
   }
@@ -402,13 +397,32 @@ nav a:hover {
   }
 
   .slide2 .flecha2 {
-    left: 73%;
+    right: 229%;
   }
 }
 
 @media (max-width: 1100px) {
+
+  .slide1 h1{
+    font-size: 100px;
+  }
+
+  .slide3 h1{
+    font-size: 100px;
+  }
+
+  .slide3 p{
+    font-size: 15px;
+    left: 10%;
+    top: 100px;
+  }
+
+  .slide3 h6{
+    right: 32%;
+  }
+
   .slide3 .flecha3 {
-    left: 70%;
+    left: 72%;
   }
 
   .slide3 h5 {
@@ -420,8 +434,12 @@ nav a:hover {
   }
 
   .slide2 h1 {
-    left: 20%;
+    right: 90%;
     margin-right: -200px;
+  }
+
+  .slide2 h6{
+    left: 80px;
   }
 
   .slide2 h5 {
@@ -435,53 +453,52 @@ nav a:hover {
   }
 
   .slide1 h1 {
-    font-size: 100px;
-    right: 0%;
+    font-size: 80px;
+    right: 3%;
   }
 
   .slide1 .flecha {
     position: relative;
-    bottom: 12%;
-    left: 77%;
+    bottom: 18px;
+    left: 74%;
   }
 
   .slide1 p {
-    right: 40%;
+    right: 20%;
     top: 150px;
     margin-left: -10px;
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .slide1 h6 {
-    right: 25%;
+    right: 27%;
   }
 
   .slide3 h1 {
-    font-size: 100px;
-    right: 0%;
+    font-size: 80px;
+    right: 10%;
   }
 
   .slide3 .flecha3 {
     position: relative;
-    bottom: 12%;
     left: 68%;
-    bottom: 50px;
+    bottom: 20px;
   }
 
   .slide3 p {
     right: 40%;
-    top: 150px;
+    top: 100px;
     margin-left: -10px;
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .slide3 h6 {
-    right: 25%;
+    right: 28%;
   }
 
   .slide3 h5 {
-    left: 27%;
-    bottom: 110px;
+    left: 24%;
+    bottom: 40px;
   }
 
   .button {
@@ -489,35 +506,65 @@ nav a:hover {
   }
 
   .slide2 h1 {
-    right: 80%;
+    right: 90%;
     margin-left: -100px;
     top: 25%;
   }
 
   .slide2 h6 {
-    right: 65%;
+    right: 75%;
 
   }
 
   .slide2 h5 {
-    left: 19%;
+    left: 15%;
   }
 
   .slide2 .flecha2 {
-    left: 69%;
+    left: -152%;
   }
 }
 
 @media (max-width: 900px) {
   .slide1 h1 {
-    font-size: 90px;
+    font-size: 70px;
+  }
+
+  .slide1 h5{
+    left: 24%;
+    top: -50px;
+  }
+
+  .slide1 .flecha{
+    position: relative;
+    left: 68%;
+    bottom: 40px;
+  }
+
+  .slide2 h6{
+    font-size: 20px;
+    top: 83%;
+  }
+
+  .slide2 h5{
+    left: 24%;
+    bottom: 40px;
+  }
+
+  .slide2 .flecha2{
+    position: relative;
+    left: -110%;
+    bottom: -20px;
   }
 
   .slide3 h1 {
-    right: 5%;
-    font-size: 90px;
+    right: 10%;
+    font-size: 70px;
   }
 
+  .slide3 h6{
+    font-size: 20px;
+  }
 
   .button {
     width: 30%;
@@ -529,37 +576,52 @@ nav a:hover {
 
 @media (max-width: 750px) {
   .slide1 h1 {
-    font-size: 7dvh;
+    font-size: 60px;
   }
 
   .slide1 p {
-    font-size: 20px;
-    margin-right: 150px;
+    font-size: 15px;
+    margin-right: 160px;
+    left: 15%;
   }
 
   .slide1 .flecha {
-    left: 70%;
+    left: 65%;
   }
 
   .slide1 h5 {
-    left: 33%;
+    left: 25%;
+  }
+
+  .slide1 h6{
+    right: 24%;
   }
 
   .slide2 h6 {
     left: 10%;
   }
 
+  .slide2 .flecha2{
+    left: -125%;
+  }
+
+  .slide2 h5{
+    left: 12%;
+  }
+
   .slide3 h1 {
-    font-size: 7dvh;
+    font-size: 60px;
+    top: 87%;
   }
 
   .slide3 p {
-    font-size: 20px;
-    margin-right: 200px;
+    font-size: 15px;
+    margin-right: 160px;
+    left: 9%;
   }
 
   .slide3 .flecha3 {
-    left: 62%;
+    left: 63%;
   }
 
   .slide3 h5 {
@@ -568,6 +630,10 @@ nav a:hover {
 }
 
 @media (max-width: 650px) {
+
+  .menu2{
+    display: none;
+  }
 
   .slide1 h1 {
     font-size: 60px;
@@ -592,16 +658,24 @@ nav a:hover {
   }
 
   .slide1 h5 {
-    font-size: 25px;
-    left: 30%;
+    left: 25%;
   }
 
   .slide2 .flecha2 {
-    left: 65%;
+    left: -105%;
+  }
+
+  .slide2 h5{
+    left: 15%;
+  }
+
+  .slide2 h6{
+    top: 85%;
   }
 
   .slide3 h1 {
     font-size: 60px;
+    right: 5%;
   }
 
   .slide3 p {
@@ -609,7 +683,7 @@ nav a:hover {
   }
 
   .slide3 h6 {
-    right: 18%;
+    right: 25%;
     font-size: 20px;
   }
 
@@ -618,13 +692,12 @@ nav a:hover {
   }
 
   .slide3 .flecha3 {
-    left: 54%;
+    left: 60%;
   }
 
   .slide3 h5 {
-    font-size: 25px;
-    left: 18%;
-    bottom: 80px;
+    left: 19%;
+    bottom: 30px;
   }
 }
 
@@ -638,16 +711,35 @@ nav a:hover {
     font-size: 50px;
   }
 
+  .slide1 h6{
+    top: 120%;
+  }
+
   .slide2 h1 {
     left: 30%;
   }
 
   .slide2 .flecha2 {
-    left: 60%;
+    top: 290px;
+    left: -120%;
+  }
+
+  .slide2 h5{
+    top: 87%;
+    left: 0%;
+  }
+
+  .slide2 h6{
+    top: 84%;
+  }
+
+  .slide3 h6{
+    top: 128%;
   }
 
   .slide3 h1 {
     font-size: 50px;
+    right: 8%;
   }
 
 }
@@ -671,9 +763,16 @@ nav a:hover {
 
   .slide1 h1 {
     position: relative;
-    right: 10%;
+    right: 4%;
     top: 90%;
-    font-size: 40px;
+    font-size: 60px;
+  }
+
+  .slide3 h1{
+    position: relative;
+    right: 12%;
+    top: 90%;
+    font-size: 60px;
   }
 
   .slide3 p {
@@ -697,13 +796,13 @@ nav a:hover {
 
   .slide3 h5 {
     font-size: 25px;
-    left: 12%;
+    left: 14%;
     bottom: 40px;
   }
 
   .slide1 p {
     position: relative;
-    top: 25%;
+    top: 35%;
     font-size: 14px;
   }
 
@@ -741,16 +840,16 @@ nav a:hover {
   }
 
   .slide2 h5 {
-    top: 81%;
     font-size: 25px;
+    top: 85%;
     left: 3%;
   }
 
   .slide2 .flecha2 {
     width: 100px;
     height: 100px;
-    left: 62%;
-    top: 73%;
+    left: -152%;
+    top: 260px;
   }
 
   @media (max-width: 650px) {
@@ -805,8 +904,25 @@ nav a:hover {
     right: 13%;
   }
   .slide1 p{
-    font-size: 20px;
+    font-size: 19px;
+    top: 150px;
     left: 10%;
+  }
+
+  .slide1 h6{
+    right: 32%;
+  }
+
+  .slide1 .flecha{
+    left: 80%;
+  }
+
+  .slide2 .flecha2{
+    top: 250px;
+  }
+
+  .slide2 h5{
+    top: 90%;
   }
 
   .slide3 h1 {
@@ -814,22 +930,19 @@ nav a:hover {
     right: 13%;
   }
   .slide3 p{
-    font-size: 20px;
+    font-size: 19px;
+    top: 150px;
     left: 10%;
   }
 
+  .slide3 h6{
+    right: 32%;
+  }
+
   .slide3 .flecha3{
-    bottom: 20%;
+    left: 77%;
   }
 
-  .slide3 h5 {
-    bottom: 40px;
-    left: 34%;
-  }
-
-  .slide2 h5{
-    top: 85%;
-  }
 }
 
 @media (max-height: 650px) {
@@ -837,9 +950,22 @@ nav a:hover {
     top: 150px;
   }
   .slide1 p{
-    top: 100px;
+    left: 8%;
+    top: 120px;
     font-size: 18px;
   }
+
+  .slide2 h6{
+    top: 88%;
+  }
+
+  .slide2 h5{
+    top: 90%;
+  }
+  .slide2 .flecha2 {
+    top: 230px;
+    left: -190%;
+}
 
   .slide3 h1{
     top: 150px;
@@ -847,13 +973,25 @@ nav a:hover {
   .slide3 p{
     top: 100px;
     font-size: 18px;
+    left: 8%;
+  }
+  .slide3 h6{
+    top: 180%;
+  }
+
+  .slide3 .flecha3{
+    top: 20px;
+  }
+
+  .slide3 h5{
+    bottom: 0px;
   }
 }
 
 @media (max-height: 550px) {
   .slide1 h1{
     font-size: 90px;
-    right: 15%;
+    right: 16%;
   }
 
   .slide1 p{
@@ -861,15 +999,15 @@ nav a:hover {
   }
 
   .slide1 h6{
-    top: 150px;
+    top: 140px;
   }
 
   .slide2 .flecha2{
-    top: 60%;
+    top: 180px;
   }
   
   .slide2 h5{
-    top: 80%;
+    top: 90%;
   }
   .slide3 h1{
     font-size: 90px;
@@ -881,20 +1019,76 @@ nav a:hover {
   }
 
   .slide3 h6{
-    top: 150px;
+    top: 160px;
   }
 
 }
 
-@media only screen and (max-height:550px) and (max-width:1050px){
+
+@media only screen and (max-height:768px) and (max-width:1366px){
+
   .slide1 h1{
     font-size: 90px;
-    left: -34px;
+    right: 12%;
+  }
+  .slide1 p{
+    top: 150px;
+    font-size: 20px;
+  }
+
+  .slide1 h6{
+    right: 290px;
+  }
+
+  .slide1 .flecha{
+    left: 80%;
+  }
+
+  .slide2 h6{
+    top: 88%;
+  }
+
+  .slide2 h5{
+    top: 91%;
+  }
+
+  .slide2 .flecha2{
+    top: 270px;
+  }
+
+  .slide3 h1{
+    font-size: 90px;
+    right: 14%;
+  }
+  .slide3 p{
+    top: 150px;
+    font-size: 20px;
+  }
+
+  .slide3 h6{
+    right: 310px;
+  }
+
+  .slide3 .flecha3{
+    left: 77%;
+  }
+
+  .button{
+    top: 160px;
+  }
+}
+
+
+
+@media only screen and (max-height:550px) and (max-width:1050px){
+  .slide1 h1{
+    font-size: 70px;
+    right: 50px;
   }
 
   .slide1 p{
-    font-size: 17px;
-    margin-right: 100px;
+    font-size: 10px;
+    margin-right: 150px;
   }
 
   .button{
@@ -903,7 +1097,7 @@ nav a:hover {
   } 
 
   .slide1 h6{
-    right: 200px;
+    right: 0px;
   }
 
   .slide1 .flecha{
@@ -1069,7 +1263,7 @@ nav a:hover {
 
 @media only screen and (max-height:750px) and (max-width:1000px){
   .slide1 h1{
-    font-size: 90px;
+    font-size: 80px;
   }
 
   .slide1 p{
@@ -1097,11 +1291,30 @@ nav a:hover {
 }
 
 @media only screen and (max-height:750px) and (max-width:1100px){
-  .slide1 h6{
-    right: 30%;
+  .slide1 h1{
+    left: -7%;
   }
+
+  .slide1 p{
+    right: 90px;
+  }
+
+  .slide1 h6{
+    left: -240px;
+  }
+
+  .slide1 .flecha{
+    left: 75%;  
+  }
+
   .slide2 h6{
-    right: 60%;
+    top: 90%;
+    right: 70%;
+  }
+
+  .slide2 .flecha2{
+    top: 230px;
+    left: -230%;
   }
   .slide2 h5{
     left: 17%;
@@ -1112,11 +1325,16 @@ nav a:hover {
   }
 
   .slide3 h1{
-    right: 1px;
+    right: 65px;
   }
 
   .slide3 h5{
     left: 28%;
+  }
+
+  .slide3 .flecha3{
+    top: 0px;
+    left: 73%;
   }
 }
 
@@ -1126,35 +1344,31 @@ nav a:hover {
   }
 
   .slide2 h6{
-    right: 60%;
+    font-size: 20px;
+    right: 72%;
+  }
+
+  .slide2 h5{
+    top: 87%;
+    left: 0%;
+  }
+
+  .slide2 .flecha2{
+    top: 270px;
+    left: -230%;
+  }
+
+  .slide3 h6{
+    font-size: 20px;
   }
 
   .slide3 h5{
-    bottom: 50px;
+    bottom: 20px;
   }
   .slide3 .flecha3{
     top: 0px;
   }
 }
 
-
-@media only screen and (max-height:768px) and (max-width:1366px){
-  .slide1 p{
-    top: 150px;
-    font-size: 20px;
-  }
-
-  .slide3 .flecha3{
-    bottom: 10px; 
-  }
-
-  .slide3 h5{
-    bottom: 40px;
-  }
-
-  .button{
-    top: 160px;
-  }
-}
 
 
