@@ -1,7 +1,7 @@
 .talento-section {
     display: flex;
     flex-direction: column;
-    background-color:#D9D9D9;
+    background-color: #D9D9D9;
 }
 
 .talento-content {
@@ -13,13 +13,14 @@
 }
 
 .talento-icon img {
-    width: 5vw;
-    height: 5vw;
+    width: 30px;
+    height: 30px;
 }
 
 .talento-title {
     margin-top: 10px;
     color: #031740;
+    font-size: 25px;
 }
 
 .talento-subtitle {
@@ -45,9 +46,10 @@
 
 @media screen and (max-width: 768px) {
     .talento-content {
-        margin: 20px; 
+        margin: 20px;
     }
+
     .talento-image {
-        max-width: 100%; 
+        max-width: 100%;
     }
 }
