@@ -15,7 +15,7 @@
 }
 
 header.abajo {
-    background-color: white ;
+    background-color: transparent ;
     transition: all .3s;
     padding: 30px;
 }
