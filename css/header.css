@@ -1,12 +1,13 @@
 /* Header */
 
-.formHeader{
+.header{
     position: fixed;
     width: 100%;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 50px;
     scroll-snap-align: start;
     z-index: 10;
     transition: all .3s;
@@ -14,14 +15,14 @@
 }
 
 header.abajo {
-    background-color: transparent ;
+    background-color: rgba(255, 255, 255, 0.479) ;
     transition: all .3s;
-    padding: 30px;
+    padding: 10px;
 }
 
 header.abajo .logo,
 header.abajo ul li a{
-    color: black;
+    color: rgba(2, 20, 63, 1);
 }
 
 nav ul {
@@ -35,6 +36,7 @@ nav a{
     font-size: 20px;
     font-weight: 500;
     padding-right: 50px;
+    color: rgba(2, 20, 63, 1);
 }
 
 nav a:hover{
