@@ -1,37 +1,41 @@
 .container2 {
     background: #02143F;
-    padding-top: 50px;
-    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
 }
 
 
-.logo {
+.logo2 {
     position: relative;
     padding-left: 7%;
+    padding-top: 45px;
+    padding-bottom: 30px;
+
+}
+
+.logo2 img {
+    width: 200px;
 }
 
 
 .texto {
-    font-family: 'Montserrat', sans-serif;
-    position: relative;
-    top: 13%;
-    left: 25%;
-    font-size: 30px;
-    margin-right: 10%;
-    text-align: left;
-    color: white;
-    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centra los elementos horizontalmente */
+    text-align: justify;
 }
 
 .parafo_1 {
     color: #EB7064;
-    margin-right: 40px;
+    font-size: 26px;
 }
-.parafo_2{
-    margin-bottom: 0;
-    margin-right: 40px;
+
+.parafo_2 {
+    color: white;
+    font-size: 26px;
+    padding-top: 30px;
+    padding-left: 45px;
 }
 
 
@@ -46,14 +50,14 @@
 
 .swiper-slide h1 {
     position: relative;
-    font-size: 5vw; 
+    font-size: 5vw;
     color: #EB7064;
     text-align: center;
 }
 
 .swiper-slide h4 {
     position: relative;
-    font-size: 3vw; 
+    font-size: 3vw;
     color: #EB7064;
     text-align: center;
 }
@@ -61,7 +65,7 @@
 .swiper-slide h5 {
     position: relative;
     font-weight: 400;
-    font-size: 2.5vw; 
+    font-size: 2.5vw;
     color: #EB7064;
     text-align: center;
 }
@@ -71,4 +75,16 @@
     width: 100%;
 }
 
+.SegundaParte-dots {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
 
+.dot-succs {
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+}

@@ -1,354 +1,80 @@
-h4{
+h4 {
     font-weight: 400;
 }
 
-.footer{
+.footer {
     background-color: transparent;
 }
 
-.image-footer img{
+.image-footer img {
     object-fit: cover;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
 }
 
 
-.TSG-logo{
-    padding-right: 70px;
+.TSG-logo img {
+    padding-top: 80px;
+    padding-right: 30px;
 }
 
 .correo {
     margin-top: -20px;
     color: transparent;
-    width: 100%;
-    height: 20vh;
-    background: linear-gradient(90deg, #02143F 0%, rgba(181, 175, 187, 0.82) 41.24%, #353083 100%);
-    align-items: center;
-    justify-content:space-between;
+    background: linear-gradient(90deg,  #353083 0%, rgba(181, 175, 187, 0.82) 41.24%, #02143F 100%);
     display: flex;
-    padding: 60px 80px;
-    box-shadow: 2px -7px 13px -1px rgba(0,0,0,1.75);
 }
 
-.contacto{
+.contacto {
     position: relative;
-    right: 90px;
-    gap: 10px;
-}
-
-.iconos1 {
-    font-size: 25px;
+    padding-top: 45px;
     color: white;
+    font-size: 15px;
+}
+.iconos1{
     display: flex;
-    gap: 30px;
-    align-items:center ;
+    align-items: center;
 }
 
 .iconos2 {
-    font-size: 25px;
-    color: white;
     display: flex;
-    gap: 30px;
     align-items: center;
 }
 
-.derechos{
+.iconos1 img {
+    padding-right: 10px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.iconos2 img {
+    padding-top: 20px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.derechos {
     color: white;
     position: relative;
-    top: 80%;
+    padding-top: 80px;
+    padding-bottom: 30px;
     right: 5%;
+    padding-right: 80px;
 }
 
-.derechos h5{
+.derechos h5 {
     font-weight: 400;
+    padding-top: 80px;
 }
 
-.links{
-    font-size: 20px;
-    padding-right: 70px;
+.links {
+    font-size: 15px;
     display: flex;
-    gap: 100px;
+    padding-top: 50px;
 }
 
-.footer.links ul{
-    list-style: none;
-}
-
-.footer.links2 {
-    list-style: none;
-    position: relative;
-    left: 20%;
-}
-
-@media (max-width: 1700px){
-    .contacto{
-        position: relative;
-        right: 10px;
-        gap: 10px;
-    }
+.footer-links{
     
-    .iconos1 {
-        font-size: 20px;
-        color: white;
-        display: flex;
-        gap: 30px;
-        align-items:center ;
-    }
-    
-    .iconos2 {
-        font-size: 20px;
-        color: white;
-        display: flex;
-        gap: 30px;
-        align-items: center;
-    }
-    
-    
-    .links{
-        font-size: 15px;
-        padding-right: 70px;
-        display: flex;
-        gap: 100px;
-    }
+padding-right: 30px;
 }
-
-@media (max-width: 1400px){
-    .derechos{
-        color: white;
-        position: relative;
-        top: 80%;
-        left: 5%;
-        margin-left: -300px;
-    }
-    
-}
-
-@media (max-width: 1400px){
-    .links{
-        font-size: 15px;
-        padding-right: 0px;
-        display: flex;
-        gap: 50px;
-    }
-    .derechos{
-        color: white;
-        position: relative;
-        top: 80%;
-        left: 5%;
-        margin-left: -400px;
-    }
-    .iconos1 {
-        font-size: 15px;
-        color: white;
-        display: flex;
-        gap: 30px;
-        align-items:center ;
-    }
-    
-    .iconos2 {
-        font-size: 15px;
-        color: white;
-        display: flex;
-        gap: 30px;
-        align-items: center;
-    }
-    .contacto{
-        position: relative;
-        right: 50px;
-    }
-}
-
-
-
-
-@media (max-width: 1000px){
-    .derechos{
-        position: relative;
-        top: 320%;
-        left: 54%;
-    }
-    .correo {
-        display: grid;
-        height: 40vh;
-    }
-    .contacto{
-        position: relative;
-        right: 0px;
-        padding-top: 10px;
-    }
-    .links{
-        font-size: 12px;
-        gap: 15px;
-        display: grid;
-        position: relative;
-        right: 0px;
-        top: -20%;
-    }
-}
-
-@media (max-width: 800px){
-    .derechos{
-        top: 290%;
-    }
-}
-
-@media (max-width: 700px){
-    .derechos{
-        display: none;
-    }
-}
-
-@media (max-width: 550px){
-    .derechos {
-        margin-right: 349px;
-        position: relative;
-        top: 104px;
-        left: 155px;
-    }
-}
-
-@media (max-width: 450px){
-
-    .iconos1 {
-        font-size: 12px;
-        gap: 10px;
-
-    }
-    .iconos2 {
-        font-size: 12px;
-        gap: 10px;
-    }
-    .correo {
-        height: auto;
-    }
-    .derechos{
-       margin-right: 441px; 
-    }
-
-    .links{
-        top: 10px;
-    }
-}
-
-
-@media (max-height: 920px){
-    .derechos {
-        margin-right: -160px;
-        margin-left: -160px;
-    }
-}
-
-@media (max-height: 830px){
-    .derechos{
-        margin-top: 30px;
-    }
-}
-
-@media (max-height: 780px){
-    .derechos{
-        margin-top: 50px;
-    }
-}
-
-@media (max-height: 690px){
-    .derechos{
-        margin-top: 70px;
-        margin-left:-200px;
-    }
-}
-
-@media (max-height: 620px){
-    .correo{
-        height: 70vh;
-    }
-
-    .links{
-       top: -90px;
-    }
-
-    .derechos{
-        top: 50px;
-    }
-}
-
-
-@media (max-height: 820px){
-    .correo{
-        height: 70vh;
-    }
-
-    .links{
-       top: -90px;
-    }
-
-    .derechos{
-        top: 80px;
-    }
-}
-
-
-@media only screen and (max-height:850px) and (max-width:1100px){
-    .derechos{
-        left: -40px;
-        margin-left: -250px;
-    }
-}
-
-@media only screen and (max-height:750px) and (max-width:1100px){
-    .correo{
-        height: 40vh;
-    }
-}
-
-@media only screen and (max-height:750px) and (max-width:1000px){
-    .correo{
-        height: 50vh;
-    }
-    .derechos{
-        left: 87%;
-    }
-}
-
-
-@media only screen and (max-height:650px) and (max-width:900px){
-    .correo{
-        height: 60vh;
-    }
-}
-
-@media only screen and (max-height:550px) and (max-width:900px){
-    .correo{
-        height: 70vh;
-    }
-}
-
-@media only screen and (max-height:550px) and (max-width:500px){
-    .derechos{
-        margin-right: 300px;
-        left: 77%;
-        top: 50px;
-    }
-}
-
-@media only screen and (max-height:550px) and (max-width:400px){
-    .derechos{
-        left: 111%;
-        top: 70px;
-    }
-
-    .correo{
-        height: 75vh;
-    }
-}
-
-@media only screen and (max-height:768px) and (max-width:1366px){
-    .derechos{
-        left: -10%;
-    }
-    .correo{
-        height: 35vh;
-    }
-}
-
-
-

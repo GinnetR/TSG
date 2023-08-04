@@ -9,8 +9,8 @@
 .casos-exito-header {
     display: flex;
     flex-direction: column; 
-    margin-bottom: 20px;
-    margin: 70px;
+    padding-left: 50px;
+    padding-top: 45px;
 }
 
 .casos-exito-icon {
@@ -49,20 +49,6 @@
 .caso-exito-image:hover {
     filter:hue-rotate(100deg) 
     
-}
-
-.casos-exito-dots {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.dot-succs {
-    width: 8px;
-    height: 8px;
-    background-color: #fff;
-    border-radius: 50%;
-    margin: 0 5px;
 }
 
 

@@ -15,14 +15,13 @@ body {
 
 /* Header */
 
-.header {
+.firstHeader {
     position: fixed;
-    width: 100%;
+    width: 590px;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
     scroll-snap-align: start;
     z-index: 10;
 }
