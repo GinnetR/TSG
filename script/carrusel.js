@@ -1,24 +1,25 @@
 var product_swiper = new Swiper('.product-swiper', {
   effect: 'coverflow',
-  grabCursor: false,
+  grabCursor: true,
   centeredSlides: true,
   slidesPerView: 3,
   coverflowEffect: {
-    rotate: 0,
-    stretch: 100,
-    depth: 200,
-    modifier: 2.5,
-    slideShadows: true
+    rotate:1,
+    stretch:90,
+    depth: 130,
+    modifier: 9,
+    slideShadows: false
   },
+ 
   loop: true,
   pagination: {
     el: '.swiper-pagination',
-    clickable: false,
+    clickable: true,
   },
   navigation: {
     nextEl: '.product-next',
     prevEl: '.product-prev',
-    hideOnClick: false,
+    hideOnClick: true,
   },
 });
 

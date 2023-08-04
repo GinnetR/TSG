@@ -24,9 +24,9 @@
 .products-strong {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  padding-top: 100px;
   color: rgba(2, 20, 63, 1);
-  font-size:32px;
+  font-size: 24px;
   ;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .product-swiper {
-  height: 350px;
+  height: 450px;
   margin-bottom: 40px;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .product-pagination {
-  padding: 5px 10px;
+  padding-bottom: 130px;
   color: white;
 }
 
