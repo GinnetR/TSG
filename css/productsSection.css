@@ -76,29 +76,45 @@
 
 }
 
-@media (max-width: 1200px) {
+
+@media (max-width: 768px) {
+  .products-header {
+    padding: 15px; 
+    text-align: center; 
+  }
+
+  .products-strong {
+    padding-top: 50px; 
+    font-size: 20px; 
+  }
+
   .bk-slider {
-    max-width: 100%;
+    max-width: 100%; 
+    padding: 0 15px; 
   }
 
   .product-swiper {
-    height: 328px;
+    height: auto; 
+    margin-bottom: 30px; 
+  }
+
+  .swiper-slide-custom {
+    width: 100%; 
+    max-width: 300px; 
+    margin: 0 auto;
+    height: auto; 
   }
 
   .swiper-slide-custom img {
-    width: 250px;
+    width: 100%; 
+    height: auto; 
   }
 
-}
-
-@media (max-width: 768px) {
-  .swiper-slide-custom {
-    width: 100px;
-    height: 100px;
-
+  .product-controls button {
+    padding: 2px 5px;
   }
 
-
-
-
+  .product-pagination {
+    padding-bottom: 60px; 
+  }
 }

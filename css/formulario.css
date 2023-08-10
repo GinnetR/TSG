@@ -21,22 +21,21 @@
 }
 
 .container4 .header{
-    position: fixed;
-    width: 1278px;
+    position: absolute;
+    width: 1270px;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    scroll-snap-align: start;
+    padding-right: 0px;
     z-index: 10;
     transition: all .3s;
 
 }
 
-.container4 .menu {
-    color: rgba(2, 20, 63, 1);
-
+.container4 #icono{
+    width: 40px;
 }
 
 .form {
@@ -48,7 +47,7 @@
 }
 
 .form__group {
-    height: 40px;
+    
     position: relative;
     --color: #5757577e;
 
@@ -61,7 +60,7 @@
     width: 510px;
     background: none;
     color: #706c6c;
-    font-size: 1rem;
+   
     padding: .6em .3em;
     border: none;
     outline: none;
@@ -144,3 +143,36 @@
     border-bottom: 1px solid var(--color);
     padding-bottom: -250px;
 }
+@media (max-width: 768px) {
+    .container4 {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .form {
+      width: 90%; 
+      margin-top: 20px; 
+      justify-content: flex-start; /
+    }
+  
+    .form__group {
+      margin-bottom: 20px;
+    }
+  
+    .form__input,
+    .form__label,
+    .form__line,
+    .buttons,
+    .capcha,
+    .button,
+    .formkit-input {
+      left: 0;
+      top: 0;
+      transform: none;
+    }
+  
+    .form__label {
+      top: 10px; 
+    }
+  }
+  
