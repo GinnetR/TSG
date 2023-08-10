@@ -50,3 +50,5 @@ function mostrarParte2Exito() {
   document.getElementById("casos-exito-segunda").style.display = "block";
 }
 
+
+

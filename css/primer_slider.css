@@ -76,3 +76,28 @@
     padding: 20px;
     right: 0;
 }
+
+
+@media (max-width: 768px) {
+    .caption2 {
+      font-size: 24px; 
+      top: 30%; 
+      left: 5%;
+    }
+  
+    .caption {
+      top: 85%; 
+      left: 3%;
+    }
+  
+    .arrow1,
+    .arrow2 {
+      transform: translateY(-40px); 
+    }
+  
+    .img1,
+    .img2 {
+      padding: 10px; 
+    }
+  }
+  
